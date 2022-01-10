@@ -8,6 +8,6 @@ gemspec
 
 # gem "webrick", "~> 1.7"
 
-#gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.7"
 
-gem "github-pages"
+gem "jekyll-agency"
