@@ -10,4 +10,4 @@ gemspec
 
 #gem "webrick", "~> 1.7"
 
-gem "jekyll-agency-theme", "~> 1.7"
+gem "jekyll-agency"
