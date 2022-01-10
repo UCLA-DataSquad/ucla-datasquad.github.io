@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     section: about
 
   header:
-    title: Facilitating Data Processes at UCLA!
+    title: Supporting your data science needs!
     text: DataSquad
     button: Schedule a Meeting with us
     buttonlink: "#services"
