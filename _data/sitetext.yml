@@ -131,21 +131,29 @@ en: &DEFAULT_EN
         #     icon: fab fa-facebook-f
           - url: http://linkedin.com/in/william-foote/
             icon: fab fa-linkedin-in
+      - name: "Ethan Allavarpu"
+        role: "Programming Assistant"
+        image: assets/img/team/AllavarpuEthanPhoto.jpeg
+        social:
+          - url: http://www.linkedin.com/in/ethanallavarpu
+            icon: fab fa-linkedin-in
+          - url: https://github.com/ethan-allavarpu
+            icon: fab fa-github
+
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    # name: "Name*"
+    # name-validation: "Please enter your name."
+    # email: "Email*"
+    # email-validation: "Please enter your email address."
+    # phone: "Phone Number"
+    # phone-validation: "Please enter your phone number."
+    # message: "Message*"
+    # message-validation: "Please enter a message."
+    # subject: "Contact Form Submission"
+    # submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
