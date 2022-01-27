@@ -33,15 +33,15 @@ en: &DEFAULT_EN
     text: "Our aim is to make your research and work life easier!"
     section: services
     list:
-      - title: "Data Wrangling"
-        # desc: "We provide a variety of data consulting service, incluing statistic, geospatial analysisi, machine learning, text analysis, etc."
+      - title: "[Data and Coding](https://calendly.com/data-squad/data-and-coding-consultation)"
+        desc: "Do you need help with collecting, cleaning, and using data? Do you need help with R, Python, Tableau, or other statistical programming tools?"
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
       - title: "Data Carpentry"
         # desc: "DataSquad provide data repository service through DataVerse."
         icon: fas fa-tools
-      - title: "Database Development"
-        # desc: "We work with researchers and students on diverse projects"
-        icon: fas fa-database
+      - title: "[Statistical Consulting](https://calendly.com/data-squad/statistical-consulting)"
+        desc: "We can help you with basic stats and how to run in the major stats packages."
+        icon: fas fa-table
       - title: "Data Visualization"
         icon: fas fa-chart-line
 

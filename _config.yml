@@ -18,7 +18,7 @@ url    : "https://ucla-datasquad.github.io/" # the base hostname & protocol for 
 baseurl: "/pages/DataSquad" # the subpath of your site, e.g. /blog
 
 title      : UCLA DataSquad
-email      :  #this is also the email contact forms will go to
+email      : support@ucladatasquad.sendboard.com #this is also the email contact forms will go to
 description: "Supporting your data science needs!"
 author     : Tim Dennis
 # logo:     #optional, defaults to site title
