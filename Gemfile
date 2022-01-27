@@ -1,9 +1,8 @@
-# frozen_string_literal: true
+#after any changes to the Gemfile, execute bundle update!source "https://rubygems.org"
 
 source "https://rubygems.org"
 
 gem "webrick"
-#after any changes to the Gemfile, execute bundle update!source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
 
