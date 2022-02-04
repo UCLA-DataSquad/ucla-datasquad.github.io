@@ -33,16 +33,16 @@ en: &DEFAULT_EN
     text: "Our aim is to make your research and work life easier!"
     section: services
     list:
-      - title: "[Data and Coding](https://calendly.com/data-squad/data-and-coding-consultation)"
+      - title: "[Data and Coding](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
         desc: "Do you need help with collecting, cleaning, and using data? Do you need help with R, Python, Tableau, or other statistical programming tools?"
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
-      - title: "Data Carpentry"
+      - title: "[Data Carpentry](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
         # desc: "DataSquad provide data repository service through DataVerse."
         icon: fas fa-tools
-      - title: "[Statistical Consulting](https://calendly.com/data-squad/statistical-consulting)"
+      - title: "[Statistical Consulting](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
         desc: "We can help you with basic stats and how to run in the major stats packages."
         icon: fas fa-table
-      - title: "Data Visualization"
+      - title: "[Data Visualization](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
         icon: fas fa-chart-line
 
   portfolio:
