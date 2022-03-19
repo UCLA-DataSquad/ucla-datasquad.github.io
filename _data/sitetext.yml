@@ -99,7 +99,7 @@ en: &DEFAULT_EN
 
   team:
     title: "Team"
-    # text: "Our team of undergraduate students"
+    text: "Powell Student Data Squad Consultants"
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
