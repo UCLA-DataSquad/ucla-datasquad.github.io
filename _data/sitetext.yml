@@ -113,12 +113,18 @@ en: &DEFAULT_EN
           #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/keonamaepablo/
             icon: fab fa-linkedin-in
+          - url: https://github.com/kmpablo 
+            icon: fab fa-github
+          - url: https://calendly.com/keonamaepablo/30min-1
+            icon: fas fa-calendar-alt
       - name: "Wiliam Foote"
         role: "Technical Writer"
         image: assets/img/team/WilliamFoote.png
         social:
           - url: http://linkedin.com/in/william-foote/
             icon: fab fa-linkedin-in
+          - url: https://github.com/williamfoote
+            icon: fab fa-github
           - url: https://calendly.com/williamfoote/consulting
             icon: fas fa-calendar-alt
       - name: "Ethan Allavarpu"
