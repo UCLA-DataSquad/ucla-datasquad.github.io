@@ -40,12 +40,12 @@ en: &DEFAULT_EN
         desc: "Do you need help with collecting, cleaning, and using data? Our team can help clean and manipulate your data in Python, R, and SQL."
         # desc: "DataSquad provide data repository service through DataVerse."
         icon: fas fa-tools
-      - title: "[Statistical Consulting](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
-        desc: "We can help you with basic stats and how to run in the major stats packages."
-        icon: fas fa-table
       - title: "[Data Visualization](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
         desc: "Need help with data visualization? Our members can help creating data visualizations in Tableau, R (ggplot, base R), and Python."
         icon: fas fa-chart-line
+      - title: "[Office Hours](https://ucla.zoom.us/j/99365990219?pwd=MFV6a1plekl1S2NWZk5uc053ZzhIUT09)"
+        desc: "Drop into our office hours on Wednesdays from 9am-12pm for immediate help"
+        icon: fas fa-table
 
   portfolio:
     title: "Projects"
@@ -113,26 +113,14 @@ en: &DEFAULT_EN
           #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/keonamaepablo/
             icon: fab fa-linkedin-in
-      - name: "Julia Wood"
-        role: "Programming Assistant"
-        image: assets/img/team/JuliaWood.jpg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/juliawood12/
-            icon: fab fa-linkedin-in
       - name: "Wiliam Foote"
         role: "Technical Writer"
         image: assets/img/team/WilliamFoote.png
         social:
-        #   - url: https://twitter.com
-        #     icon: fab fa-twitter
-        #   - url: https://facebook.com
-        #     icon: fab fa-facebook-f
           - url: http://linkedin.com/in/william-foote/
             icon: fab fa-linkedin-in
+          - url: https://calendly.com/williamfoote/consulting
+            icon: fas fa-calendar-alt
       - name: "Ethan Allavarpu"
         role: "Programming Assistant"
         image: assets/img/team/AllavarpuEthanPhoto.jpeg
@@ -141,6 +129,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/ethan-allavarpu
             icon: fab fa-github
+          - url: https://calendly.com/ethanallavarpu 
+            icon: fas fa-calendar-alt
 
 
   contact:
