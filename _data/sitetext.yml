@@ -138,6 +138,17 @@ en: &DEFAULT_EN
           - url: https://calendly.com/ethanallavarpu 
             icon: fas fa-calendar-alt
 
+  hof:
+    title: "Hall of Fame"
+    text: "Powell DataSquad Consultant Alumni"
+    people:
+      - name: "Julia Wood"
+        role: "Programming Assistant 2021-2022"
+        image: assets/img/team/JuliaWood.jpg
+        social:
+          - url: https://www.linkedin.com/in/juliawood12/
+            icon: fab fa-linkedin-in
+
 
   contact:
     title: "Contact Us"
