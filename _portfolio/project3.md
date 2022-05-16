@@ -30,7 +30,7 @@ With these goals in mind, Will and Isabel met three times over the course of Win
 
 In its current form, Como Q functions from the R console and needs two elements to work, a list of bad ingredients and an ingredient to search for.
 
-<img src = assets/img/portfolio/comoq2.png>
+![Como-Q Program](comoq2.png)
 
 Moving forward, Isabel wants to build on the coding lessons she’s been left with to make the program more efficient and user friendly. Among these, she wants to add functionality for taking in an entire list of ingredients (as opposed to a single one) and use Como-Q to flag which of the ingredients are potentially pore-clogging.
 
