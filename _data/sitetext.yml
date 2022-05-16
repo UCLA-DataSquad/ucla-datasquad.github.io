@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     Our mission is to facilitate data processes for sustainable, replicable, and reproducible 
     research, teaching, and workflows. Members of the DataSquad do not create, interpret, 
     analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. 
-    The DataSquad is a part of the Library Data Science Center service.  The UCLA DataSquad service 
-    is a chapter  of the DataSquad program was created by Carleton 
+    The DataSquad is a part of the Library Data Science Center service and made possible with a generous gift from Norman Powell.  
+    The UCLA DataSquad service is a chapter  of the DataSquad program was created by Carleton 
     College."
     section: about
 
@@ -33,17 +33,19 @@ en: &DEFAULT_EN
     text: "Our aim is to make your research and work life easier!"
     section: services
     list:
-      - title: "Data Wrangling"
-        # desc: "We provide a variety of data consulting service, incluing statistic, geospatial analysisi, machine learning, text analysis, etc."
+      - title: "[Coding Consultation](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
+        desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
-      - title: "Data Carpentry"
+      - title: "[Data Cleaning and Manipulation](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
+        desc: "Do you need help with collecting, cleaning, and using data? Our team can help clean and manipulate your data in Python, R, and SQL."
         # desc: "DataSquad provide data repository service through DataVerse."
         icon: fas fa-tools
-      - title: "Database Development"
-        # desc: "We work with researchers and students on diverse projects"
-        icon: fas fa-database
-      - title: "Data Visualization"
+      - title: "[Data Visualization](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
+        desc: "Need help with data visualization? Our members can help creating data visualizations in Tableau, R (ggplot, base R), and Python."
         icon: fas fa-chart-line
+      - title: "[Office Hours](https://ucla.zoom.us/j/99365990219?pwd=MFV6a1plekl1S2NWZk5uc053ZzhIUT09)"
+        desc: "Drop into our office hours on Wednesdays from 9am-12pm for immediate help"
+        icon: fas fa-table
 
   portfolio:
     title: "Projects"
@@ -97,7 +99,7 @@ en: &DEFAULT_EN
 
   team:
     title: "Team"
-    # text: "Our team of undergraduate students"
+    text: "Powell Student Data Squad Consultants"
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
@@ -111,26 +113,20 @@ en: &DEFAULT_EN
           #   icon: fab fa-facebook-f
           - url: https://www.linkedin.com/in/keonamaepablo/
             icon: fab fa-linkedin-in
-      - name: "Julia Wood"
-        role: "Programming Assistant"
-        image: assets/img/team/JuliaWood.jpg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/juliawood12/
-            icon: fab fa-linkedin-in
+          - url: https://github.com/kmpablo 
+            icon: fab fa-github
+          - url: https://calendly.com/keonamaepablo/30min-1
+            icon: fas fa-calendar-alt
       - name: "Wiliam Foote"
         role: "Technical Writer"
         image: assets/img/team/WilliamFoote.png
         social:
-        #   - url: https://twitter.com
-        #     icon: fab fa-twitter
-        #   - url: https://facebook.com
-        #     icon: fab fa-facebook-f
           - url: http://linkedin.com/in/william-foote/
             icon: fab fa-linkedin-in
+          - url: https://github.com/williamfoote
+            icon: fab fa-github
+          - url: https://calendly.com/williamfoote/consulting
+            icon: fas fa-calendar-alt
       - name: "Ethan Allavarpu"
         role: "Programming Assistant"
         image: assets/img/team/AllavarpuEthanPhoto.jpeg
@@ -139,6 +135,19 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/ethan-allavarpu
             icon: fab fa-github
+          - url: https://calendly.com/ethanallavarpu 
+            icon: fas fa-calendar-alt
+
+  hof:
+    title: "Hall of Fame"
+    text: "Powell DataSquad Consultant Alumni"
+    people:
+      - name: "Julia Wood"
+        role: "Programming Assistant 2021-2022"
+        image: assets/img/team/JuliaWood.jpg
+        social:
+          - url: https://www.linkedin.com/in/juliawood12/
+            icon: fab fa-linkedin-in
 
 
   contact:
