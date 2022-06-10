@@ -15,10 +15,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Services"
       section: services
-    - title: "Portfolio"
+    - title: "Projects"
       section: portfolio
-    # - title: "Blog"
-    #   section: blog
     - title: "Team"
       section: team
     - title: "Staff"
