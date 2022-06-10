@@ -1,40 +1,31 @@
 ---
-title: Squirrels in Motion
+caption: #what displays in the portfolio grid:
+  title: Digitalizing Ant Nests to Study Tunneling Trends
+  # subtitle: subtitle
+  thumbnail: assets/img/portfolio/antnest.png
+  
+#what displays when the item is clicked:
+title: Digitalizing Ant Nests to Study Tunneling Trends
 # subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/squirrel.jfif
-alt: Squirrel
+image: assets/img/portfolio/antnest.png #main image, can be a link or a file in assets/img/portfolio
+alt: 3D representation of an ant nest
 
-caption:
-  title: Squirrels in Motion
-  # subtitle: Illustration
-  thumbnail: assets/img/portfolio/squirrel.jfif
 ---
+By JESSICA CHUN on Fri, 2021-01-22 13:26
 
-By JESSICA CHUN on Fri, 2021-01-22 13:24
+Eva Horna Lowell and Sean O’Fallon, graduate students in the department of Ecology and Evolutionary Biology, are researching ant nest behavior in the Pinter-Wollman Lab at UCLA. Initially, their goal was to study the differences in ant nests exposed to various environmental conditions using wax casts of the tunnels. However, because the tunnels were so intricate and delicate in nature, the casts kept breaking, making it necessary to approach the problem in a different way. 
 
-Amanda Robin is a PhD candidate in the Department of Ecology and Evolutionary Biology, researching behavior and locomotion of wild squirrels. In 2019, Amanda and her team equipped wild California ground squirrels (Otospermophilus Beecheyi) with motion-sensitive collars. These collars allowed them to record accelerometer data at 100 values per second as the squirrels moved through their environment. 
+Broken wax ant nest cast pieces spread out on a table. Lined up next to each other to put back together like a puzzle            Many different parts of the ant nest cast on a table
 
-Amanda and the rest of the Squirrel Gazer team (click here to check out her blog!) observed the squirrels’ behaviors and characterized their activities with labels such as “sitting”, “standing”, “laying down”, and more. Using the motion data and the labels that were created, Amanda wants to utilize machine learning to better understand behavior and patterns. Currently, the Data Science Center is helping her use R and R packages to analyze the data and develop neural networks to predict a squirrel’s activity and behavior.
+Broken pieces of the ant nest cast. The segments had to be painted in order for the scanner to see them.
 
-A squirrel with the motion sensored collar standing on its hind legs     A squirrel with the motion sensored collar sitting in a tree
+At the Data Science Center (DSC) Lux Lab, Emerging Technologies Librarian Doug Daniels helped them figure out a way to record detailed information about the nests without sacrificing the integrity of the tunnels. Using an Artec Space Spider Scanner with a 0.1 mm resolution light scanner, Lowell and O’Fallen were able to get 3D scans of the ant nest. There were some challenges, given that the casts had already broken into pieces, but with a collaborative effort, they were able to start the reconstruction of the nest virtually. Communication was key, as you can imagine how hard it is to describe the orientation of an object purely through video chat and screen sharing. It’s also interesting to note that the casted pieces of the nest had to be hand-painted for the scanner to see them. Originally translucent, the pieces were unable to be properly scanned. The scanner simply could not make out their shapes because it was a light scanner as opposed to a laser scanner.
 
-Squirrels with motion sensored collars on.
+3D representation of the ant nest on the computer. Each broken segment is shown as a different color.
 
-We interviewed Amanda to learn more about her inspiration and her project!
-What got you interested in Ecology and Evolutionary Biology?
+A 3D representation of a part of an ant nest on the computer. Each broken segment is a different color in the software.
 
-Squirrels! When I was a community college student, I thought I wanted to be a clinical psychologist; however, when I got to UC Berkeley, I learned more about animal psychology. I started in the Jacobs Lab of Cognitive Biology and found that I liked animal psychology more than human psychology. Currently, I am in the Nonacs Lab at UCLA. One of my advisors is Dr. Jennifer E. Smith, an Evolutionary Behavioral Ecology researcher from Mills College. It’s been fun trying to figure out what animals are doing in nature!
-
-Why did you choose to specifically study the behavior patterns of California ground squirrels?
-
-California ground squirrels are ecosystem engineers! They help provide protection and even housing for other animals. We are looking at how different squirrels behave underground because it never really has been done before. Patterns such as are some of them in charge of building more than others (female, male) can be discovered. The question was, “How do we get underground???” We couldn’t cast the burrows, similar to how researchers study ant burrowing, because the tunnels and pathways were too extensive. People have tried cameras, but you can’t really determine measurements with them. That’s when we decided to use accelerometer, gyroscope collars, working towards modeling the 3D paths! Eventually, we want to use the collars and our machine learning algorithms to study Californian squirrels and their behavior underground.
-
-What has been the most challenging part of the experiment so far?
-
-We started trying to build the collars, but that was a mess. Eventually, we bought the collars that we use now. Also, following the squirrels for three hours, tracking their every move in summer, is very difficult. When you are trying to connect data collected on wild animals in the field to computer science, there are so many other steps that you have to connect to make sure you are providing the machine learning algorithms meaningful data.
-
-{:.list-inline}
-
-- Date: January 2021
-- Author: Jessica Chun
+{:.list-inline} 
+- Date: 2021-01-22
+- Author: JESSICA CHUN
 - Category: Data Science Center
