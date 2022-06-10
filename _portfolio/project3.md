@@ -1,45 +1,33 @@
 ---
-title: Como-Q - Your Skincare Assistant
+title: Analyzing Ancient Chinese Buddhist Text with Python
 # subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/comoq.png
-alt: Skincare products
+image: assets/img/portfolio/buddhisttext.jpg
+alt: Keep Exploring
 
 caption:
-  title: Como-Q - Your Skincare Assistant
+  title: Analyzing Ancient Chinese Buddhist Text with Python
   # subtitle: Graphic Design
-  thumbnail: assets/img/portfolio/comoq.png
+  thumbnail: assets/img/portfolio/buddhisttext.jpg
 ---
 
-By William Foote on Fri, 2022-05-13
+By JESSICA CHUN on Fri, 2021-01-22 13:20
 
-When Isabel Light filled out a request form for the UCLA Datasquad to help her code a passion project, she didn’t know she’d be the first external applicant the team had ever helped.
+A graduate student from Asian Languages and Cultures sought help to analyze ancient Buddhist texts semantically, including extracting the meaning of the texts, and comparing the similarity between different texts quantitatively. The goal of this consultation was to document experience using Python and to work with an ancient Chinese Buddhist dialect. This required some basic analysis on several dozen text documents with a twist.
 
-Isabel is a senior Microbiology, Immunology, and Molecular Genetics major at UCLA and prior to her project, the Datasquad had only done consultations referred to them from within the UCLA Data Science Center.
+There is a standard set of popular Natural Language Processing (NLP) tools that is our center’s ‘go to’ toolbox including:
 
-Norman Powell Data Science Consultant Will Foote helped on the coding aspect of the project, which had goals of creating a program that screens a skincare product’s ingredients to check if any ingredients are comedogenic (pore-clogging). Isabel said the program, tentatively named “Como-Q,” was inspired by the fact that some skincare products (and many general hygiene ones) are either unlabeled or mislabeled when it comes to their pore-clogging properties.
+- Spacy
 
-“One of the main ingredients in many shampoos is comedogenic,” Isabel said. “But, no one really seems to know or care because it’s not a skincare product…I wanted to build a tool that helps people easily identify if an item is pore-clogging even if it’s not a typical skincare product.” 
+- Scikit-learn
 
-She also wanted to make a highly customizable tool that fits the needs of each person.
+- Data visualization tools like word clouds
 
-“Not everyone’s skin reacts the same to ‘comedogenic’ items,” Isabel said. “Some people with great skin have told me coconut oil has worked wonders for clearing up their acne, even though it’s considered to be a very pore-clogging ingredient.” 
+While analyzing text is a pretty straight-forward process, there were many unique challenges in this consult. One challenge was that the documents were Buddhist texts from the Ming dynasty. Most of the text tools we use are designed for western languages, so we had to be creative with how we addressed common concerns such as Chinese character segmentation. The source text was originally unsegmented, meaning that it was just a contiguous block of text. Using the Python library however, we were able to divide text based on white space and vocabulary matching. While this segmented the text, there was a preexisting default choosing to use the modern Chinese dictionary, which did not match up perfectly with the older syntax. Since the analysis was done using a modern Chinese dictionary, we explored replacing it with an ancient Chinese corpus and dictionary. Several are maintained by the Georgetown Treebank project, a text and language analysis tool.
 
-With these goals in mind, Will and Isabel met three times over the course of Winter and Spring quarters and were able to get a base application to work in R. As their consultations wound down, Isabel was also left with action-items to continue moving the application towards its end goal despite coming in with little programming experience.
-
-“This is something that I’ve wanted to do for a long time,” Isabel said. “So, I’m glad that I could get help on the project from the Datasquad and have something to build off of going forward.”
-
-In its current form, Como Q functions from the R console and needs two elements to work, a list of bad ingredients and an ingredient to search for.
-
-![Como-Q Program](assets/img/portfolio/comoq2.png)
-
-Moving forward, Isabel wants to build on the coding lessons she’s been left with to make the program more efficient and user friendly. Among these, she wants to add functionality for taking in an entire list of ingredients (as opposed to a single one) and use Como-Q to flag which of the ingredients are potentially pore-clogging.
-
-She also wants to build a more user-friendly interface by putting Como-Q’s functionality into R Shiny, a tool that helps create easy-to-use and easy-to-deploy applications. The hope is that one day the app is available online and accessible to anyone with the same questions about a product's comedogenic properties.
-
-The UCLA Datasquad is actively accepting requests to help the UCLA community reach its data science needs regardless of their technical background. Whether you need help with coding, data cleaning, data visualization, or really anything data-science related, the Datasquad has you covered! 
+Once the source files were segmented, we were able to use some of the scikitlearn tools for basic statistical analysis (TF-IDF), following this article pretty closely. We also used several visualization tools, including the word cloud tool to provide some baseline visualizations.The goal was eventually to explore automating tagging content following an example at Stanford.
 
 {:.list-inline}
 
-- Date: May 2022
-- Author: William Foote
-- Category: UCLA DataSquad
+- Date: January 2021
+- Author: Jessica Chun
+- Category: Data Science Center

@@ -1,30 +1,37 @@
 ---
-title: Analyzing Ancient Chinese Buddhist Text with Python
-# subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/buddhisttext.jpg
-alt: Keep Exploring
+title: Squirrels in Motion
+# subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+image: assets/img/portfolio/squirrel.jfif
+alt: Squirrel
 
 caption:
-  title: Analyzing Ancient Chinese Buddhist Text with Python
-  # subtitle: Graphic Design
-  thumbnail: assets/img/portfolio/buddhisttext.jpg
+  title: Squirrels in Motion
+  # subtitle: Illustration
+  thumbnail: assets/img/portfolio/squirrel.jfif
 ---
 
-By JESSICA CHUN on Fri, 2021-01-22 13:20
+By JESSICA CHUN on Fri, 2021-01-22 13:24
 
-A graduate student from Asian Languages and Cultures sought help to analyze ancient Buddhist texts semantically, including extracting the meaning of the texts, and comparing the similarity between different texts quantitatively. The goal of this consultation was to document experience using Python and to work with an ancient Chinese Buddhist dialect. This required some basic analysis on several dozen text documents with a twist.
+Amanda Robin is a PhD candidate in the Department of Ecology and Evolutionary Biology, researching behavior and locomotion of wild squirrels. In 2019, Amanda and her team equipped wild California ground squirrels (Otospermophilus Beecheyi) with motion-sensitive collars. These collars allowed them to record accelerometer data at 100 values per second as the squirrels moved through their environment. 
 
-There is a standard set of popular Natural Language Processing (NLP) tools that is our center’s ‘go to’ toolbox including:
+Amanda and the rest of the Squirrel Gazer team (click here to check out her blog!) observed the squirrels’ behaviors and characterized their activities with labels such as “sitting”, “standing”, “laying down”, and more. Using the motion data and the labels that were created, Amanda wants to utilize machine learning to better understand behavior and patterns. Currently, the Data Science Center is helping her use R and R packages to analyze the data and develop neural networks to predict a squirrel’s activity and behavior.
 
-- Spacy
+A squirrel with the motion sensored collar standing on its hind legs     A squirrel with the motion sensored collar sitting in a tree
 
-- Scikit-learn
+Squirrels with motion sensored collars on.
 
-- Data visualization tools like word clouds
+We interviewed Amanda to learn more about her inspiration and her project!
+What got you interested in Ecology and Evolutionary Biology?
 
-While analyzing text is a pretty straight-forward process, there were many unique challenges in this consult. One challenge was that the documents were Buddhist texts from the Ming dynasty. Most of the text tools we use are designed for western languages, so we had to be creative with how we addressed common concerns such as Chinese character segmentation. The source text was originally unsegmented, meaning that it was just a contiguous block of text. Using the Python library however, we were able to divide text based on white space and vocabulary matching. While this segmented the text, there was a preexisting default choosing to use the modern Chinese dictionary, which did not match up perfectly with the older syntax. Since the analysis was done using a modern Chinese dictionary, we explored replacing it with an ancient Chinese corpus and dictionary. Several are maintained by the Georgetown Treebank project, a text and language analysis tool.
+Squirrels! When I was a community college student, I thought I wanted to be a clinical psychologist; however, when I got to UC Berkeley, I learned more about animal psychology. I started in the Jacobs Lab of Cognitive Biology and found that I liked animal psychology more than human psychology. Currently, I am in the Nonacs Lab at UCLA. One of my advisors is Dr. Jennifer E. Smith, an Evolutionary Behavioral Ecology researcher from Mills College. It’s been fun trying to figure out what animals are doing in nature!
 
-Once the source files were segmented, we were able to use some of the scikitlearn tools for basic statistical analysis (TF-IDF), following this article pretty closely. We also used several visualization tools, including the word cloud tool to provide some baseline visualizations.The goal was eventually to explore automating tagging content following an example at Stanford.
+Why did you choose to specifically study the behavior patterns of California ground squirrels?
+
+California ground squirrels are ecosystem engineers! They help provide protection and even housing for other animals. We are looking at how different squirrels behave underground because it never really has been done before. Patterns such as are some of them in charge of building more than others (female, male) can be discovered. The question was, “How do we get underground???” We couldn’t cast the burrows, similar to how researchers study ant burrowing, because the tunnels and pathways were too extensive. People have tried cameras, but you can’t really determine measurements with them. That’s when we decided to use accelerometer, gyroscope collars, working towards modeling the 3D paths! Eventually, we want to use the collars and our machine learning algorithms to study Californian squirrels and their behavior underground.
+
+What has been the most challenging part of the experiment so far?
+
+We started trying to build the collars, but that was a mess. Eventually, we bought the collars that we use now. Also, following the squirrels for three hours, tracking their every move in summer, is very difficult. When you are trying to connect data collected on wild animals in the field to computer science, there are so many other steps that you have to connect to make sure you are providing the machine learning algorithms meaningful data.
 
 {:.list-inline}
 
