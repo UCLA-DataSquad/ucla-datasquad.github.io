@@ -43,8 +43,8 @@ en: &DEFAULT_EN
       - title: "[Data Visualization](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
         desc: "Need help with data visualization? Our members can help creating data visualizations in Tableau, R (ggplot, base R), and Python."
         icon: fas fa-chart-line
-      - title: "[Office Hours](https://ucla.zoom.us/j/99365990219?pwd=MFV6a1plekl1S2NWZk5uc053ZzhIUT09)"
-        desc: "Drop into our office hours on Wednesdays from 9am-12pm for immediate help"
+      - title: "Office Hours"
+        desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
         icon: fas fa-table
 
   portfolio:
@@ -52,12 +52,6 @@ en: &DEFAULT_EN
     text: "Check out the ongoing and past projects."
     section: portfolio
     closebutton: "Close Project"
-
-#   blog:
-#     title: "blogs"
-#     text: "Check out the ongoing and past projects."
-#     section: blog
-#     closebutton: "Close Project"
 
   about:
     title: "About Us"
@@ -89,13 +83,6 @@ en: &DEFAULT_EN
       - name: "Zhiyuan Yao"
         role: "Program Co-director"
         image: assets/img/staff/zhiyuan_500x500.jpg
-        # social:
-        #   - url: https://twitter.com
-        #     icon: fab fa-twitter
-        #   - url: https://facebook.com
-        #     icon: fab fa-facebook-f
-        #   - url: https://linkedin.com
-        #     icon: fab fa-linkedin-in
 
   team:
     title: "Team"
@@ -103,39 +90,25 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Keona Mae Pablo"
-        role: "Project Manager"
-        image: assets/img/team/KeonaMae.png
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          # - url: https://facebook.com
-          #   icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/keonamaepablo/
+      - name: "Shail Mirpuri"
+        role: Norman Powell Data Science Consultant
+        image: assets/img/team/shailmirpuri.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/shail-mirpuri/
             icon: fab fa-linkedin-in
-          - url: https://github.com/kmpablo 
+          - url: https://github.com/shailm99
             icon: fab fa-github
-          - url: https://calendly.com/keonamaepablo/30min-1
+          - url: https://calendly.com/shail-mirpuri
             icon: fas fa-calendar-alt
-      - name: "Wiliam Foote"
-        role: "Technical Writer"
-        image: assets/img/team/WilliamFoote.png
-        social:
-          - url: http://linkedin.com/in/william-foote/
+      - name: "Tristan Dewing"
+        role: Norman Powell Data Science Consultant
+        image: assets/img/team/TristanDewing.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/tristan-dewing/
             icon: fab fa-linkedin-in
-          - url: https://github.com/williamfoote
+          - url: https://github.com/tdewing19
             icon: fab fa-github
-          - url: https://calendly.com/williamfoote/consulting
-            icon: fas fa-calendar-alt
-      - name: "Ethan Allavarpu"
-        role: "Programming Assistant"
-        image: assets/img/team/AllavarpuEthanPhoto.jpeg
-        social:
-          - url: http://www.linkedin.com/in/ethanallavarpu
-            icon: fab fa-linkedin-in
-          - url: https://github.com/ethan-allavarpu
-            icon: fab fa-github
-          - url: https://calendly.com/ethanallavarpu 
+          - url: https://calendly.com/tristandewing
             icon: fas fa-calendar-alt
 
   hof:
@@ -143,26 +116,50 @@ en: &DEFAULT_EN
     text: "Powell DataSquad Consultant Alumni"
     people:
       - name: "Julia Wood"
-        role: "Programming Assistant 2021-2022"
+        role: "Data Science Consultant 2021-2022"
         image: assets/img/team/JuliaWood.jpg
         social:
           - url: https://www.linkedin.com/in/juliawood12/
             icon: fab fa-linkedin-in
+      - name: "Keona Mae Pablo"
+        role: "Project Manager 2021-2022"
+        image: assets/img/team/KeonaMae.png
+        social:
+          - url: https://www.linkedin.com/in/keonamaepablo/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/kmpablo 
+            icon: fab fa-github
+      - name: "Wiliam Foote"
+        role: "Technical Writer 2021-2022"
+        image: assets/img/team/WilliamFoote.png
+        social:
+          - url: http://linkedin.com/in/william-foote/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/williamfoote
+            icon: fab fa-github
+      - name: "Ethan Allavarpu"
+        role: "Data Science Consultant 2021-2022"
+        image: assets/img/team/AllavarpuEthanPhoto.jpeg
+        social:
+          - url: http://www.linkedin.com/in/ethanallavarpu
+            icon: fab fa-linkedin-in
+          - url: https://github.com/ethan-allavarpu
+            icon: fab fa-github
 
 
   contact:
     title: "Contact Us"
     section: contact
-    # name: "Name*"
-    # name-validation: "Please enter your name."
-    # email: "Email*"
-    # email-validation: "Please enter your email address."
-    # phone: "Phone Number"
-    # phone-validation: "Please enter your phone number."
-    # message: "Message*"
-    # message-validation: "Please enter a message."
-    # subject: "Contact Form Submission"
-    # submit: "Send Message"
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
