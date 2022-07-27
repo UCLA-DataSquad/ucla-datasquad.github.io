@@ -111,6 +111,26 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://calendly.com/tristandewing
             icon: fas fa-calendar-alt
+      - name: "Emily Gong"
+        role: Technical Writer
+        image: assets/img/team/EmilyGong.jpg
+        social: 
+          - url: https://www.linkedin.com/in/emily-gong-11b5a719b/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/emilygong-zhuying
+            icon: fab fa-github
+          - url: https://calendly.com/zgong24
+            icon: fas fa-calendar-alt
+       - name: "Vince Front"
+         role: Project Manager
+         image: assets/img/team/VinceFront.jpg
+         social: 
+           - url: www.linkedin.com/in/vincenty-front-29a262210/
+             icon: fab fa-linkedin-in
+           - url: https://github.com/vincentfront
+             icon: fab fa-github
+           - url: https://calendly.com/vincentfront11/
+             icon: fas fa-calendar-alt
 
   hof:
     title: "Hall of Fame"
