@@ -125,7 +125,7 @@ en: &DEFAULT_EN
         role: Project Manager
         image: assets/img/team/VinceFront.jpg
         social: 
-          - url: www.linkedin.com/in/vincenty-front-29a262210
+          - url: https://www.linkedin.com/in/vincenty-front-29a262210
             icon: fab fa-linkedin-in
           - url: https://github.com/vincentfront
             icon: fab fa-github
