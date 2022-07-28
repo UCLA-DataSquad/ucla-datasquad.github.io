@@ -116,11 +116,11 @@ en: &DEFAULT_EN
         image: assets/img/team/EmilyGong.jpg
         social: 
           - url: https://www.linkedin.com/in/emily-gong-11b5a719b/
-           icon: fab fa-linkedin-in
+            icon: fab fa-linkedin-in
           - url: https://github.com/emilygong-zhuying
-           icon: fab fa-github
+            icon: fab fa-github
           - url: https://calendly.com/zgong24
-           icon: fas fa-calendar-alt
+            icon: fas fa-calendar-alt
       - name: "Vince Front"
         role: Project Manager
         image: assets/img/team/VinceFront.jpg
