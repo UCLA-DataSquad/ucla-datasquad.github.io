@@ -25,6 +25,8 @@ en: &DEFAULT_EN
   services:
     title: "Our Services"
     text: "Our aim is to make your research and work life easier!"
+    button: Schedule a Meeting With Us
+    buttonlink: https://calendly.com/d/dwn-43j-ym2
     body: "The primary goal of the UCLA DataSquad consulting service is to guide researchers in learning to apply methods and tools to accomplish their goals, and the DataSquad can provide researchers up to 5 consultations per quarter."
     section: services
     list:
@@ -44,8 +46,6 @@ en: &DEFAULT_EN
       # - title: "Office Hours"
       # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
       # icon: fas fa-chalkboard-user
-    button: Schedule a Meeting With Us
-    buttonlink: https://calendly.com/d/dwn-43j-ym2
 
   portfolio:
     title: "Projects"
