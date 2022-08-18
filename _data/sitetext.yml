@@ -49,14 +49,14 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Projects"
-    text: "Check out the ongoing and past projects."
+    text: "Ongoing and Past Projects DataSquad Has Worked On"
     section: portfolio
     closebutton: "Close Project"
 
   staff:
     title: "Supervising Staff"
-#    text: "Lorem ipsum dolor sit amet consectetur."
-#    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    # text: "Lorem ipsum dolor sit amet consectetur."
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: staff
     people:
       - name: "Tim Dennis"
@@ -73,7 +73,7 @@ en: &DEFAULT_EN
 
   team:
     title: "Team"
-    text: "Powell Student Data Squad"
+    text: "Powell Student DataSquad"
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
@@ -173,15 +173,15 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com
-        icon: "fab fa-twitter"
+        icon: fab fa-twitter
       - url: https://facebook.com
-        icon: "fab fa-facebook-f"
+        icon: fab fa-facebook-f
       - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
+        icon: fab fa-linkedin-in
       - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
+        icon: fab fa-github
       - url: https://instagram.com
-        icon: "fab fa-instagram"
+        icon: fab fa-instagram
 en-US:
   <<: *DEFAULT_EN
 en-CA:
