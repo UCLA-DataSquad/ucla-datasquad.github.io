@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   about:
     title: "About Us"
-    text: "our story"
+    text: "Our Story"
     body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. 
     Our mission is to facilitate data processes for sustainable, replicable, and reproducible 
     research, teaching, and workflows. Members of the DataSquad do not create, interpret, 
@@ -26,7 +26,7 @@ en: &DEFAULT_EN
     title: Supporting your data science needs!
     text: DataSquad
     button: Schedule a Meeting With Us
-    buttonlink: "#services"
+    buttonlink: https://calendly.com/d/dwn-43j-ym2
 
   services:
     title: "Our Services"
@@ -34,19 +34,23 @@ en: &DEFAULT_EN
     body: "The primary goal of the UCLA DataSquad consulting service is to guide researchers in learning to apply methods and tools to accomplish their goals, and the DataSquad can provide researchers up to 5 consultations per quarter."
     section: services
     list:
-      - title: "[Coding Consultation](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
-        desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
+      - title: "Coding Consultation"
+        desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We
+can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
-      - title: "[Data Cleaning and Manipulation](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
+      - title: "Data Cleaning and Manipulation"
         desc: "Do you need help with collecting, cleaning, and using data? Our team can help clean and manipulate your data in Python, R, and SQL."
         # desc: "DataSquad provide data repository service through DataVerse."
         icon: fas fa-tools
-      - title: "[Data Visualization](https://docs.google.com/forms/d/e/1FAIpQLSf1PlEloApRx_9APeuvRSJD5pSa6AN8dTz_b9DCKhKgeMlSqw/viewform)"
-        desc: "Need help with data visualization? Our members can help creating data visualizations in Tableau, R (ggplot, base R), and Python."
+      - title: "Data Visualization"
+        desc: "Need help with visualizing or displaying the data you have? Our members can help build informative and attractive visuals using Tableau, R's ggplot, base R, and Python."
         icon: fas fa-chart-line
-      - title: "Office Hours"
-        desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
-        icon: fas fa-table
+      - title: "Statistical Consulting"
+	desc: "Do you need help understanding statistical concepts or how to implement analysis using statistics in your projects? Our members have strong backgrounds in the subject of statistics."
+	
+      # - title: "Office Hours"
+      # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
+      # icon: fas fa-table
 
   portfolio:
     title: "Projects"
