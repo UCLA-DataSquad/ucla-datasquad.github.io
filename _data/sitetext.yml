@@ -1,4 +1,3 @@
-#
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
@@ -13,13 +12,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "Our Story"
-    body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. 
-    Our mission is to facilitate data processes for sustainable, replicable, and reproducible 
-    research, teaching, and workflows. Members of the DataSquad do not create, interpret, 
-    analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. 
-    The DataSquad is a part of the [UCLA Library Data Science Center](https://library.ucla.edu/dsc) service and was made possible 
-    with a generous gift from Norman Powell. The UCLA DataSquad service is a chapter of the 
-    DataSquad International, a service model initiated by Carleton College."
+    body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. Our mission is to facilitate data processes for sustainable, replicable, and reproducible research, teaching, and workflows. Members of the DataSquad do not create, interpret, analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. The DataSquad is a part of the [UCLA Library Data Science Center](https://library.ucla.edu/dsc) service and was made possible with a generous gift from Norman Powell. The UCLA DataSquad service is a chapter of the DataSquad International, a service model initiated by Carleton College."
     section: about
 
   header:
@@ -35,8 +28,7 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Coding Consultation"
-        desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We
-can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
+        desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
         icon: fas fa-laptop # find more at https://fontawesome.com/icons
       - title: "Data Cleaning and Manipulation"
         desc: "Do you need help with collecting, cleaning, and using data? Our team can help clean and manipulate your data in Python, R, and SQL."
@@ -46,10 +38,10 @@ can help you write efficient and cohesive code and recommend the best coding pra
         desc: "Need help with visualizing or displaying the data you have? Our members can help build informative and attractive visuals using Tableau, R's ggplot, base R, and Python."
         icon: fas fa-chart-line
       - title: "Statistical Consulting"
-	desc: "Do you need help understanding statistical concepts or how to implement analysis using statistics in your projects? Our members have strong backgrounds in the subject of statistics."
-	icon: fa-solid fa-calculator
+        desc: "Do you need help understanding statistical concepts or how to implement analysis using statistics in your projects? Our members have strong backgrounds in the subject of statistics."
+        icon: fa-solid fa-calculator
       # - title: "Office Hours"
-      # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY 		  UNAVAILABLE]"
+      # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
       # icon: fa-solid fa-chalkboard-user
 
   portfolio:
