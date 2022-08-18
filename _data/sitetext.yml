@@ -121,6 +121,7 @@ en: &DEFAULT_EN
   hof:
     title: "Hall of Fame"
     text: "Powell DataSquad Consultant Alumni"
+    section: hof
     people:
       - name: "Julia Wood"
         role: "Data Science Consultant 2021-2022"
