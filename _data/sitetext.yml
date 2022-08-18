@@ -9,17 +9,18 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
-  about:
-    title: "About Us"
-    text: "Our Story"
-    body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. Our mission is to facilitate data processes for sustainable, replicable, and reproducible research, teaching, and workflows. Members of the DataSquad do not create, interpret, analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. The DataSquad is a part of the [UCLA Library Data Science Center](https://library.ucla.edu/dsc) service and was made possible with a generous gift from Norman Powell. The UCLA DataSquad service is a chapter of the DataSquad International, a service model initiated by Carleton College."
-    section: about
 
   header:
     title: Supporting your data science needs!
     text: DataSquad
     button: Schedule a Meeting With Us
     buttonlink: https://calendly.com/d/dwn-43j-ym2
+
+  about:
+    title: "About Us"
+    text: "Our Story"
+    body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. Our mission is to facilitate data processes for sustainable, replicable, and reproducible research, teaching, and workflows. Members of the DataSquad do not create, interpret, analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. The DataSquad is a part of the [UCLA Library Data Science Center](https://library.ucla.edu/dsc) service and was made possible with a generous gift from Norman Powell. The UCLA DataSquad service is a chapter of the DataSquad International, a service model initiated by Carleton College."
+    section: about
 
   services:
     title: "Our Services"
@@ -39,10 +40,12 @@ en: &DEFAULT_EN
         icon: fas fa-chart-line
       - title: "Statistical Consulting"
         desc: "Do you need help understanding statistical concepts or how to implement analysis using statistics in your projects? Our members have strong backgrounds in the subject of statistics."
-        icon: fa-solid fa-calculator
+        icon: fas fa-calculator
       # - title: "Office Hours"
       # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
-      # icon: fa-solid fa-chalkboard-user
+      # icon: fas fa-chalkboard-user
+    button: Schedule a Meeting With Us
+    buttonlink: https://calendly.com/d/dwn-43j-ym2
 
   portfolio:
     title: "Projects"
@@ -50,21 +53,8 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "The DataSquad is a team of students who support data related projects at UCLA. 
-    Our mission is to facilitate data processes for sustainable, replicable, and reproducible 
-    research, teaching, and workflows. Members of the DataSquad do not create, interpret, 
-    analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. 
-    The DataSquad is a part of the Library Data Science Center service.  The UCLA DataSquad service 
-    is a chapter  of the DataSquad program was created by Carleton 
-    College."
-    section: about
-
-
   staff:
-    title: "Staff"
+    title: "Supervising Staff"
 #    text: "Lorem ipsum dolor sit amet consectetur."
 #    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: staff
