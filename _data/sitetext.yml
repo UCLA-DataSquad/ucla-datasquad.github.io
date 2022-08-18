@@ -37,7 +37,7 @@ en: &DEFAULT_EN
       - title: "Coding Consultation"
         desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We
 can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
-        icon: fas fa-laptop #find more at https://fontawesome.com/icons
+        icon: fas fa-laptop # find more at https://fontawesome.com/icons
       - title: "Data Cleaning and Manipulation"
         desc: "Do you need help with collecting, cleaning, and using data? Our team can help clean and manipulate your data in Python, R, and SQL."
         # desc: "DataSquad provide data repository service through DataVerse."
@@ -47,10 +47,10 @@ can help you write efficient and cohesive code and recommend the best coding pra
         icon: fas fa-chart-line
       - title: "Statistical Consulting"
 	desc: "Do you need help understanding statistical concepts or how to implement analysis using statistics in your projects? Our members have strong backgrounds in the subject of statistics."
-	
+	icon: fa-solid fa-calculator
       # - title: "Office Hours"
-      # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
-      # icon: fas fa-table
+      # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY 		  UNAVAILABLE]"
+      # icon: fa-solid fa-chalkboard-user
 
   portfolio:
     title: "Projects"
