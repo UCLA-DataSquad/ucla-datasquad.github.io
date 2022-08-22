@@ -23,8 +23,6 @@ en: &DEFAULT_EN
       section: staff
     - title: "Contact"
       section: contact
-    - title: "Hall of Fame"
-      section: hof
     # - title: "Theme Source"
     #   url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:

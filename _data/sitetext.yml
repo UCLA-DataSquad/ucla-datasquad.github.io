@@ -109,7 +109,7 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Vince Front"
         role: Project Manager
-        image: assets/img/team/VinceFront.jpg
+        image: assets/img/team/Vinceront.jpg
         social: 
           - url: https://www.linkedin.com/in/vincenty-front-29a262210
             icon: fab fa-linkedin-in
