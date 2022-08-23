@@ -25,10 +25,10 @@ en: &DEFAULT_EN
   services:
     title: "Our Services"
     text: "Our aim is to make your research and work life easier!"
+    section: services
     button: Schedule a Meeting With Us
     buttonlink: https://calendly.com/d/dwn-43j-ym2
     body: "The primary goal of the UCLA DataSquad consulting service is to guide researchers in learning to apply methods and tools to accomplish their goals, and the DataSquad can provide researchers up to 5 consultations per quarter."
-    section: services
     list:
       - title: "Coding Consultation"
         desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
