@@ -46,6 +46,8 @@ en: &DEFAULT_EN
       # - title: "Office Hours"
       # desc: "Drop into office hours with our Data Science Consultants for immediate help [CURRENTLY UNAVAILABLE]"
       # icon: fas fa-chalkboard-user
+    body: "A primary goal of the UCLA DataSquad consulting service is to guide researchers in learning to apply methods and tools to accomplish their goals, and the Data Squad can provide researchers up to 5 consultations per quarter. The UCLA Data Squad consulting service does not provide tutoring or homework help. Prior to consultation meetings, researchers should be prepared to provide background on their research, code, and data (full or subset of dataset)."
+
 
   portfolio:
     title: "Projects"
