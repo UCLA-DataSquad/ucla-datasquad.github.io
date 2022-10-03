@@ -8,6 +8,9 @@
           {% if site.data.sitetext[site.locale].services.text %}
 		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].services.text }}</h3>
 		  {% endif %}
+		{%- if site.data.sitetext[site.locale].services.button -%}
+		<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
+		{%- endif -%}	
         </div>
       </div>
 	  
