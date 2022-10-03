@@ -7,10 +7,7 @@
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].services.title | default: "Services" }}</h2>
           {% if site.data.sitetext[site.locale].services.text %}
 		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].services.text }}</h3>
-		  {% endif %}
-		{%- if site.data.sitetext[site.locale].services.button -%}
-		<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
-		{%- endif -%}	
+		  {% endif %}	
         </div>
       </div>
 	  
@@ -25,6 +22,9 @@
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
+	      {%- if site.data.sitetext[site.locale].services.button -%}
+	      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].services.buttonlink }}">{{ site.data.sitetext[site.locale].services.button }}</a>
+	      {%- endif -%}
       </div>
 	  
     </div>
