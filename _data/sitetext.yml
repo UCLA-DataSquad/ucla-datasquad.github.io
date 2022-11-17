@@ -85,15 +85,15 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Vince Front"
-          role: Project Manager
-          image: assets/img/team/VinceFront.jpg
-          social: 
-            - url: https://www.linkedin.com/in/vincenty-front/
-              icon: fab fa-linkedin-in
-            - url: https://github.com/vincentfront
-              icon: fab fa-github
-            - url: https://calendly.com/vincentfront11/
-              icon: fas fa-calendar-alt
+        role: Project Manager
+        image: assets/img/team/VinceFront.jpg
+        social: 
+          - url: https://www.linkedin.com/in/vincenty-front/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/vincentfront
+            icon: fab fa-github
+          - url: https://calendly.com/vincentfront11/
+            icon: fas fa-calendar-alt
       - name: "Shail Mirpuri"
         role: Norman Powell Data Science Consultant
         image: assets/img/team/shailmirpuri.jpeg
