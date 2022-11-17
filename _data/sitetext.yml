@@ -84,6 +84,16 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
+      - name: "Vince Front"
+          role: Project Manager
+          image: assets/img/team/VinceFront.jpg
+          social: 
+            - url: https://www.linkedin.com/in/vincenty-front/
+              icon: fab fa-linkedin-in
+            - url: https://github.com/vincentfront
+              icon: fab fa-github
+            - url: https://calendly.com/vincentfront11/
+              icon: fas fa-calendar-alt
       - name: "Shail Mirpuri"
         role: Norman Powell Data Science Consultant
         image: assets/img/team/shailmirpuri.jpeg
@@ -114,15 +124,15 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://calendly.com/zgong24
             icon: fas fa-calendar-alt
-      - name: "Vince Front"
-        role: Project Manager
-        image: assets/img/team/VinceFront.jpg
+      - name: "Edvin Molla"
+        role: DataOps
+        image: assets/img/team/EdvinMolla.jpg
         social: 
-          - url: https://www.linkedin.com/in/vincenty-front/
+          - url: https://www.linkedin.com/in/edvinmolla/
             icon: fab fa-linkedin-in
-          - url: https://github.com/vincentfront
+          - url: https://github.com/edvinmolla
             icon: fab fa-github
-          - url: https://calendly.com/vincentfront11/
+          - url: https://calendly.com/edvinmolla/30min
             icon: fas fa-calendar-alt
 
   hof:
