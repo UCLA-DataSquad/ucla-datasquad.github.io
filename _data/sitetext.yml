@@ -125,7 +125,7 @@ en: &DEFAULT_EN
           - url: https://calendly.com/zgong24
             icon: fas fa-calendar-alt
       - name: "Edvin Molla"
-        role: DataOps
+        role: DataOps Engineer
         image: assets/img/team/EdvinMolla.jpg
         social: 
           - url: https://www.linkedin.com/in/edvinmolla/
