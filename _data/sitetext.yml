@@ -80,7 +80,7 @@ en: &DEFAULT_EN
 
   team:
     title: "Team"
-    text: "Powell Student DataSquad"
+    text: "Norman Powell Student DataSquad"
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
