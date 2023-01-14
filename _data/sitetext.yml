@@ -77,6 +77,13 @@ en: &DEFAULT_EN
             icon: fab fa-twitter
           - url: https://www.linkedin.com/in/zhiyuan-yao-8b7b13101/
             icon: fab fa-linkedin-in
+      - name: "Leigh Phan"
+        role: "Data Scientist"
+        image: assets/img/team/500x500.jpg
+      - name: "Kristian Allen"
+        role: "Software Architect"
+        image: assets/img/team/500x500.jpg
+
 
   team:
     title: "Team"
