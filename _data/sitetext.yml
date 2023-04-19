@@ -131,15 +131,15 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://calendly.com/zgong24
             icon: fas fa-calendar-alt
-      # - name: "Edvin Molla"
-      #  role: DataOps Engineer
-      #  image: assets/img/team/EdvinMolla.jpg
-      #  social: 
-      #    - url: https://www.linkedin.com/in/edvinmolla/
-      #      icon: fab fa-linkedin-in
-      #    - url: https://github.com/edvinmolla
-      #      icon: fab fa-github
-      #    - url: https://calendly.com/edvinmolla/30min
+      - name: "Bianca Badajos"
+        role: Lux Lab Student Programmer
+        image: 
+        social: 
+          - url: https://www.linkedin.com/in/bianca-badajos-825951265/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/biancadajo
+            icon: fab fa-github
+      #    - url: 
       #      icon: fas fa-calendar-alt
 
   hof:
