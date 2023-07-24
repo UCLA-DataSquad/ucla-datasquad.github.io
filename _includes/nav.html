@@ -9,7 +9,7 @@
       {%- if site.logo -%} 
       <img
         height="{{ site.logo.height | default: 52 }}"
-        src="{{ site.logo.path }}"
+        src="{{ site.baseurl }}/{{ site.logo.path }}"
            /> </a>
       <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#"> {{ site.title }}
       {%- else -%} {{ site.title }} {%- endif -%}
