@@ -24,7 +24,7 @@ document.getElementById("page-top").className="bg-light";
   <div class="col-lg-12 text-center items-center">
     <h2 class="section-heading">{{ page.title }}</h2>
     {% if page.image %}
-    <img src="{{ page.image }}" alt="{{ page.alt }}" style="padding-Bottom: 2.5em"/>
+    <img src="{{site.baseurl}}/{{ page.image }}" alt="{{ page.alt }}" style="padding-Bottom: 2.5em"/>
     {% endif %}
   </div>
   {{ content }}
