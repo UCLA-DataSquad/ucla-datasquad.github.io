@@ -26,7 +26,7 @@ The four members of UCLA’s DataSquad have each provided an important role in t
 
 <h4>Julia Wood - Norman Powell Data Science Consultant</h4>
 
-<img src="{{site.baseurl}}/assets/img/team/JuliaWood.jpg" alt="Julia was the first member of the first cohort – joining even before the team was officially established." width="25%" height="25%">
+<img src="{{site.baseurl}}/assets/img/team/JuliaWood.jpg" alt="Julia was the first member of the first cohort – joining even before the team was officially established." width="25%" height="25%" align="right" style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em">
 
 Senior statistics major and digital humanities minor Julia Wood was the first to join the team in 2021, before the DataSquad was even officially established. During her time on the team, she consulted countless clients, [taught multiple Tableau workshops](https://www.youtube.com/watch?v=JEzkC8_oSdQ), and trained Ethan after he joined the team in Winter 2022.
 
@@ -38,17 +38,21 @@ Julia will take the skills she’s learned on the DataSquad to Meta, where she w
 
 <h4>Keona Mae Pablo - Project Manager</h4>
 
-<img src="{{site.baseurl}}/assets/img/team/KeonaMae.png" alt="Keona Mae Pablo’s organizational and leadership skills made sure the DataSquad was always running smoothly.">
+<img src="{{site.baseurl}}/assets/img/team/KeonaMae.png" alt="Keona Mae Pablo’s organizational and leadership skills made sure the DataSquad was always running smoothly."
+align="left" style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-right: 1.5em" width="25%" height="50%">
 
 Keona Mae Pablo is the DataSquad project manager and is a senior cognitive science major and digital humanities minor at UCLA. She worked since Fall 2021 to establish and implement the DataSquad model at UCLA. She designed and implemented workflows, helped hire the Squad, and managed their work. She also functioned as a liaison between the DataSquad staff and squadron workers to create an organized, well-functioning data science consulting team.
 
 When asked about her work with the Data Squad, Keona Mae said: "I know the DataSquad is a valuable resource that the UCLA community will grow to love and appreciate, and I wouldn’t have been able to finish the year strong without the hard work of my team.”
 
 Keona has accepted an offer to become a project manager at Plain Concepts following graduation.
-
+<br>
+<br>
+<br>
 <h4>Will Foote - Technical Writer/Norman Powell Data Science Consultant</h4>
 
-<img src="{{site.baseurl}}/assets/img/team/WilliamFoote.png" alt="Photo of William Foote">
+<img src="{{site.baseurl}}/assets/img/team/WilliamFoote.png" alt="Photo of William Foote" align="right" style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
+width="30%" height="50%">
 
 Will Foote, a senior statistics major and public affairs minor at UCLA, has been working as the DataSquad’s Technical Writer as well as one of the team’s Norman Powell Data Science Consultants since Fall 2021. He wrote and put together the [2021 Recap](https://mailchi.mp/ucla/winter2022-newsletter) and Spring 2022 newsletters for the Data Science Center. He has also published – and is writing more – blog posts on [the DataSquad's website](https://ucla-datasquad.github.io/) to recap the team's work.
 
@@ -57,13 +61,18 @@ Will has also completed numerous consulting projects as well. Notably, working w
 Will is currently searching for data scientist or statistical consulting positions to begin his career following graduation.
 
 <h4>Ethan Allavarpu - Norman Powell Data Science Consultant</h4>
-<img src="{{site.baseurl}}/assets/img/team/AllavarpuEthanPhoto.jpeg" alt="After being trained by Julia, Ethan represented the continuation of the DataSquad model by training newcomers Tristan Dewing and Shail Mirpuri of the second cohort." height="500" width="500">
+<img src="{{site.baseurl}}/assets/img/team/AllavarpuEthanPhoto.jpeg" alt="After being trained by Julia, Ethan represented the continuation of the DataSquad model by training newcomers Tristan Dewing and Shail Mirpuri of the second cohort." height="500" width="500" align="left" style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-right: 1.5em" width="30%" height="50%">
 
 Ethan Allavarpu, a statistics major at UCLA, was hired in Winter Quarter 2022 and has hit the ground running in his first quarter with the DataSquad. Since joining the team, he has worked on three projects and looks to take on more in his last quarter at UCLA.
 
 Ethan worked with Julia on Dr. Terrence Keel’s research project on fatal encounters with police, in which he helped in the data cleaning and processing phases. He also analyzed geolocation helicopter data and created a program to parse text from Microsoft Word and PDF files using Python in his other two projects.
 
 Following graduation, Ethan will be pursuing a Master of Science in statistics data science at Stanford University.
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h3> Moving Forward </h3>
 

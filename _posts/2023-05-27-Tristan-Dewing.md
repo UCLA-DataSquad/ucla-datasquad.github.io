@@ -40,7 +40,7 @@ trends within these higher education institutions as a California native,” Tri
 <img
 src="{{ site.baseurl }}/assets/img/blogs/CA_college_data.png"
 alt="CA Colleges by Gender and Race"
-style="margin-Bottom: 2.5em; margin-top: 1.5em; maringe-left: 1.5em"
+style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
 width="70%"
 height="70%"
 />

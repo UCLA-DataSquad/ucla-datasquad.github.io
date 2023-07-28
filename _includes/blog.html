@@ -18,7 +18,7 @@
                             {{post.date | date: "%m-%d-%Y"}}
                         </td>
                         <td>
-                            <a href="{{ site.baseurl }}/{{ post.url }}">{{post.title}}</a>
+                            <a href="{{ site.baseurl }}/{{ post.url }}">{{post.title | truncate: 90}}</a>
                         </td>
                         <td>
                             {{post.author}}
