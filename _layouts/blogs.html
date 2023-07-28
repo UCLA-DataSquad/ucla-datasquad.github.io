@@ -20,11 +20,15 @@ document.getElementById("page-top").className="bg-light";
 {% endif %}
 
 <div class="container" id="pagecontainer2">
-  <p style="font-weight:200"> By {{ page.author | default: "anonymous" }} <b><i>published</i></b> on {{ page.date | date_to_string: "ordinal", "US" }}
+  <p style="font-weight:200; margin-bottom: 2.5em;"> By {{ page.author | default: "anonymous" }} <b><i>published</i></b> on {{ page.date | date_to_string: "ordinal", "US" }}
   <div class="col-lg-12 text-center items-center">
     <h2 class="section-heading">{{ page.title }}</h2>
     {% if page.image %}
+<<<<<<< HEAD
     <img src="{{site.baseurl}}/{{ page.image }}" alt="{{ page.alt }}" style="padding-Bottom: 2.5em"/>
+=======
+    <img src="{{ page.image }}" alt="{{ page.alt }}" style="margin-bottom: 2.5em;"/>
+>>>>>>> da4d3fb5ae11b2b57d5adb4e2f121fe68b4d9105
     {% endif %}
   </div>
   {{ content }}
