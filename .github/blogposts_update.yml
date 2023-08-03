@@ -10,7 +10,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Replace logic # Replaces the number of blog posts if there are any changes
+    - name: Update Number of Blogs # Replaces the number of blog posts if there are any changes
       run: |
         modals=$(expr $(grep -E 'plus:.*' _includes/modals.html | grep -oE '\d+') + 0)
         portfolio=$(expr $(grep -E 'plus:.*' _includes/portfolio_grid.html | grep -oE '\d+') + 0)
