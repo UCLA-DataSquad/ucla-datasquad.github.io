@@ -79,10 +79,10 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Leigh Phan"
         role: "Data Scientist"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/staff/LeighPhan.jpg
       - name: "Kristian Allen"
         role: "Software Architect"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/staff/KristianAllen.jpg
 
 
   team:
@@ -91,36 +91,36 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Vince Front"
-        role: Project Manager
-        image: assets/img/team/VinceFront.jpg
-        social: 
-          - url: https://www.linkedin.com/in/vincenty-front/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/vincentfront
-            icon: fab fa-github
-          - url: https://calendly.com/vincentfront11/
-            icon: fas fa-calendar-alt
-      - name: "Shail Mirpuri"
-        role: Norman Powell Data Science Consultant
-        image: assets/img/team/shailmirpuri.jpeg
-        social: 
-          - url: https://www.linkedin.com/in/shail-mirpuri/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/shailm99
-            icon: fab fa-github
-          - url: https://calendly.com/shail-mirpuri
-            icon: fas fa-calendar-alt
-      - name: "Tristan Dewing"
-        role: Norman Powell Data Science Consultant
-        image: assets/img/team/TristanDewing.jpeg
-        social: 
-          - url: https://www.linkedin.com/in/tristan-dewing/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/tdewing19
-            icon: fab fa-github
-          - url: https://calendly.com/tristandewing
-            icon: fas fa-calendar-alt
+      # - name: "Vince Front"
+      #   role: Project Manager
+      #   image: assets/img/team/VinceFront.jpg
+      #   social: 
+      #     - url: https://www.linkedin.com/in/vincenty-front/
+      #       icon: fab fa-linkedin-in
+      #     - url: https://github.com/vincentfront
+      #       icon: fab fa-github
+      #     - url: https://calendly.com/vincentfront11/
+      #       icon: fas fa-calendar-alt
+      # - name: "Shail Mirpuri"
+      #   role: Norman Powell Data Science Consultant
+      #   image: assets/img/team/shailmirpuri.jpeg
+      #   social: 
+      #     - url: https://www.linkedin.com/in/shail-mirpuri/
+      #       icon: fab fa-linkedin-in
+      #     - url: https://github.com/shailm99
+      #       icon: fab fa-github
+      #     - url: https://calendly.com/shail-mirpuri
+      #       icon: fas fa-calendar-alt
+      # - name: "Tristan Dewing"
+      #   role: Norman Powell Data Science Consultant
+      #   image: assets/img/team/TristanDewing.jpeg
+      #   social: 
+      #     - url: https://www.linkedin.com/in/tristan-dewing/
+      #       icon: fab fa-linkedin-in
+      #     - url: https://github.com/tdewing19
+      #       icon: fab fa-github
+      #     - url: https://calendly.com/tristandewing
+      #       icon: fas fa-calendar-alt
       - name: "Emily Gong"
         role: Technical Writer
         image: assets/img/team/EmilyGong.jpg
@@ -176,6 +176,30 @@ en: &DEFAULT_EN
           - url: http://www.linkedin.com/in/ethanallavarpu
             icon: fab fa-linkedin-in
           - url: https://github.com/ethan-allavarpu
+            icon: fab fa-github
+      - name: "Vince Front"
+        role: "Project Manager 2022-2023"
+        image: assets/img/team/VinceFront.jpg
+        social: 
+          - url: https://www.linkedin.com/in/vincenty-front/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/vincentfront
+            icon: fab fa-github
+      - name: "Shail Mirpuri"
+        role: "Norman Powell Data Science Consultant 2022-2023"
+        image: assets/img/team/shailmirpuri.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/shail-mirpuri/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/shailm99
+            icon: fab fa-github
+      - name: "Tristan Dewing"
+        role: "Norman Powell Data Science Consultant 2022-2023"
+        image: assets/img/team/TristanDewing.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/tristan-dewing/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/tdewing19
             icon: fab fa-github
 
   #contact:
