@@ -91,38 +91,8 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      # - name: "Vince Front"
-      #   role: Project Manager
-      #   image: assets/img/team/VinceFront.jpg
-      #   social: 
-      #     - url: https://www.linkedin.com/in/vincenty-front/
-      #       icon: fab fa-linkedin-in
-      #     - url: https://github.com/vincentfront
-      #       icon: fab fa-github
-      #     - url: https://calendly.com/vincentfront11/
-      #       icon: fas fa-calendar-alt
-      # - name: "Shail Mirpuri"
-      #   role: Norman Powell Data Science Consultant
-      #   image: assets/img/team/shailmirpuri.jpeg
-      #   social: 
-      #     - url: https://www.linkedin.com/in/shail-mirpuri/
-      #       icon: fab fa-linkedin-in
-      #     - url: https://github.com/shailm99
-      #       icon: fab fa-github
-      #     - url: https://calendly.com/shail-mirpuri
-      #       icon: fas fa-calendar-alt
-      # - name: "Tristan Dewing"
-      #   role: Norman Powell Data Science Consultant
-      #   image: assets/img/team/TristanDewing.jpeg
-      #   social: 
-      #     - url: https://www.linkedin.com/in/tristan-dewing/
-      #       icon: fab fa-linkedin-in
-      #     - url: https://github.com/tdewing19
-      #       icon: fab fa-github
-      #     - url: https://calendly.com/tristandewing
-      #       icon: fas fa-calendar-alt
       - name: "Emily Gong"
-        role: Technical Writer
+        role: Project Manager
         image: assets/img/team/EmilyGong.jpg
         social: 
           - url: https://www.linkedin.com/in/emily-gong-11b5a719b/
@@ -130,6 +100,16 @@ en: &DEFAULT_EN
           - url: https://github.com/emilygong-zhuying
             icon: fab fa-github
           - url: https://calendly.com/zgong24
+            icon: fas fa-calendar-alt
+      - name: "Lukas Hager"
+        role: Norman Powell Data Science Consultant
+        image: assets/img/team/LukasHager.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/lukas-hager-b331801b4/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/lukhager
+            icon: fab fa-github
+          - url: https://calendly.com/lukashager
             icon: fas fa-calendar-alt
       - name: "Bianca Badajos"
         role: Lux Lab Student Programmer
