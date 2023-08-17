@@ -128,13 +128,13 @@ en: &DEFAULT_EN
     section: hof
     people:
       - name: "Julia Wood"
-        role: "Data Science Consultant 2021-2022"
+        role: "Data Science Consultant 2021-22"
         image: assets/img/team/JuliaWood.jpg
         social:
           - url: https://www.linkedin.com/in/juliawood12/
             icon: fab fa-linkedin-in
       - name: "Keona Mae Pablo"
-        role: "Project Manager 2021-2022"
+        role: "Project Manager 2021-22"
         image: assets/img/team/KeonaMae.png
         social:
           - url: https://www.linkedin.com/in/keonamaepablo/
@@ -142,7 +142,7 @@ en: &DEFAULT_EN
           - url: https://github.com/kmpablo 
             icon: fab fa-github
       - name: "Wiliam Foote"
-        role: "Technical Writer 2021-2022"
+        role: "Technical Writer 2021-22"
         image: assets/img/team/WilliamFoote.png
         social:
           - url: http://linkedin.com/in/william-foote/
@@ -150,7 +150,7 @@ en: &DEFAULT_EN
           - url: https://github.com/williamfoote
             icon: fab fa-github
       - name: "Ethan Allavarpu"
-        role: "Data Science Consultant 2021-2022"
+        role: "Data Science Consultant 2021-22"
         image: assets/img/team/AllavarpuEthanPhoto.jpeg
         social:
           - url: http://www.linkedin.com/in/ethanallavarpu
@@ -158,7 +158,7 @@ en: &DEFAULT_EN
           - url: https://github.com/ethan-allavarpu
             icon: fab fa-github
       - name: "Vince Front"
-        role: "Project Manager 2022-2023"
+        role: "Project Manager 2022-23"
         image: assets/img/team/VinceFront.jpg
         social: 
           - url: https://www.linkedin.com/in/vincenty-front/
@@ -166,7 +166,7 @@ en: &DEFAULT_EN
           - url: https://github.com/vincentfront
             icon: fab fa-github
       - name: "Shail Mirpuri"
-        role: "Norman Powell Data Science Consultant 2022-2023"
+        role: "Norman Powell Data Science Consultant 2022-23"
         image: assets/img/team/shailmirpuri.jpeg
         social: 
           - url: https://www.linkedin.com/in/shail-mirpuri/
@@ -174,7 +174,7 @@ en: &DEFAULT_EN
           - url: https://github.com/shailm99
             icon: fab fa-github
       - name: "Tristan Dewing"
-        role: "Norman Powell Data Science Consultant 2022-2023"
+        role: "Norman Powell Data Science Consultant 2022-23"
         image: assets/img/team/TristanDewing.jpeg
         social: 
           - url: https://www.linkedin.com/in/tristan-dewing/
