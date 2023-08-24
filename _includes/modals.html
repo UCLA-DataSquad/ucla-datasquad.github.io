@@ -1,8 +1,60 @@
 <!-- Portfolio Modals -->
-{% for project in site.portfolio %}
+<!-- This is for any blogs that you want to spotlight -->
+{% for project in site.posts %}
 <div
   class="portfolio-modal modal fade"
   id="p{{ forloop.index }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">{{ project.card.title }}</h2>
+              <p class="item-intro text-muted">{{ project.card.subtitle }}</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="{{ project.card.image }}"
+                alt="{{ project.card.alt }}"
+              />
+              <p>{{ project.card.intro }}
+                <br/><br/>
+                <a href="{{ site.baseurl }}/{{ project.card.url }}"> read more </a>
+              </p>
+              <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+                {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                default: "Close Project" }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<!-- This is for the projects in the portfolio folder -->
+{% for project in site.portfolio %}
+{% assign modified_index = forloop.index | plus: 5 %}
+<div
+  class="portfolio-modal modal fade"
+  id="p{{ modified_index }}"
   tabindex="-1"
   role="dialog"
   aria-hidden="true"

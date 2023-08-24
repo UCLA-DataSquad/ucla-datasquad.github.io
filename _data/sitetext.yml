@@ -209,6 +209,11 @@ en: &DEFAULT_EN
         icon: fab fa-github
       - url: https://instagram.com
         icon: fab fa-instagram
+  blog:
+    title: "Our Blog" 
+    section: blog
+    text: "These are blogs on what we've done"
+    
 en-US:
   <<: *DEFAULT_EN
 en-CA:

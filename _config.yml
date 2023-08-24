@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://ucla-datasquad.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/pages/DataSquad" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : UCLA DataSquad
 email      : support@ucladatasquad.sendboard.com #this is also the email contact forms will go to
@@ -32,6 +32,8 @@ analytics:
 
 collections:
   portfolio:
+  posts:
+    output: True
 
 markdown: kramdown
 
@@ -41,3 +43,5 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+
