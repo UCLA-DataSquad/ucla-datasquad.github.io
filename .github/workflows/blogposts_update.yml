@@ -22,9 +22,10 @@ jobs:
         ./blog_script.sh 
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Actions"
-        git add .
-        git commit -m "Update blog post count"
-        if [ $(echo $?) == 0 ]; then
+        changes=$(git status --short | wc -l)
+        if [ "$changes" -ne 0 ]; then
+          git add .
+          git commit -m "Update blog post count"
           git push origin HEAD:${{ github.ref }}
         fi
       env:
