@@ -1,7 +1,7 @@
 #!/bin/bash
 
-modals=$(expr $(grep -E 'plus:.*' _includes/modals.html | grep -oE '\d+') + 0)
-portfolio=$(expr $(grep -E 'plus:.*' _includes/portfolio_grid.html | grep -oE '\d+') + 0)
+modals=$(expr $(grep -E 'plus:.*' _includes/modals.html | grep -oE '[0-9]+') + 0)
+portfolio=$(expr $(grep -E 'plus:.*' _includes/portfolio_grid.html | grep -oE '[0-9]+') + 0)
 
 post_count=$(expr $(ls -p _posts | wc -l) + 0)
 
