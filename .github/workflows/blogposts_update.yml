@@ -7,7 +7,7 @@
 
 name: Blogpost Updates
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
