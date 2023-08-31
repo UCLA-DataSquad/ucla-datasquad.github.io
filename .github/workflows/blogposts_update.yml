@@ -1,6 +1,3 @@
-# THIS WORKFLOW IS PRONE TO FAILURE, IT DOESN't NECESSARILY MEAN THAT THE WEBSITE WILLL FAIL LOADING
-# IF YOU CAN FIX THIS WORKFLOW PLEASE DO. THE PROBLEM EXISTS AT LINE 26.
-
 # The puprpose of this workflow is to run the ./blog_script.sh automatically. The script takes the number of blogs and updates
 # it in the appropriate files (modals.html, portfolio_grid.html). This update will fix the logic so it can properly display
 # projects and any HIGHLIGHTED blogs.
