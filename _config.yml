@@ -44,5 +44,5 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
-
+  - jekyll-feed
 
