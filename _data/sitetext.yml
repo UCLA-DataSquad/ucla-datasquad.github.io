@@ -123,12 +123,16 @@ en: &DEFAULT_EN
       #      icon: fas fa-calendar-alt
       - name: "Aimee Xu"
         role: Norman Powell Technical Writer
-        image: ""
+        image: "assets/img/team/AimeeXu.png"
         social:
-          - url: ""
+          - url: "https://www.linkedin.com/in/aimxu"
             icon: fab fa-linkedin-in
+          - url: "https://github.com/aimeeGH"
+            icon: fab fa-github
+          - url: "https://calendly.com/aimeexu"
+            icon: fas fa-calendar-alt
       - name: "Loretta Hu"
-        role: Norman Powell Data Scientist
+        role: Datasquad Infrastructure Developer
         image: assets/img/team/LorettaHu.jpeg
         social:
           - url: https://www.linkedin.com/in/loretta-hu/
