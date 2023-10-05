@@ -136,7 +136,7 @@ en: &DEFAULT_EN
           - url: https://github.com/lorhzy09
             icon: fab fa-github
       - name: "Hyerin Lee"
-        role: Norman Powell Data Scientist
+        role: Datasquad Infrastructure Developer
         image: assets/img/team/HyerinLee.jpeg
         social:
           - url: https://www.linkedin.com/in/hyerin-lee/
@@ -144,7 +144,7 @@ en: &DEFAULT_EN
           - url: https://github.com/hyerynn0521
             icon: fab fa-github
       - name: "Lawrence Lee"
-        role: Norman Powell Data Scientist
+        role: Datasquad Infrastructure Developer
         image: assets/img/team/LawrenceLee.jpg
         social:
           - url: https://www.linkedin.com/in/lawrencetlee/
