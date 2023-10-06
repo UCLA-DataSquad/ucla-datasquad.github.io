@@ -113,14 +113,48 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Bianca Badajos"
         role: Lux Lab Student Programmer
-        image: 
+        image: "assets/img/team/BiancaBadajas.jpg"
         social: 
-          - url: https://www.linkedin.com/in/bianca-badajos-825951265/
+          - url: https://www.linkedin.com/in/biancabadajos/
             icon: fab fa-linkedin-in
           - url: https://github.com/biancadajo
             icon: fab fa-github
       #    - url: 
       #      icon: fas fa-calendar-alt
+      - name: "Aimee Xu"
+        role: Norman Powell Technical Writer
+        image: "assets/img/team/AimeeXu.png"
+        social:
+          - url: "https://www.linkedin.com/in/aimxu"
+            icon: fab fa-linkedin-in
+          - url: "https://github.com/aimeeGH"
+            icon: fab fa-github
+          - url: "https://calendly.com/aimeexu"
+            icon: fas fa-calendar-alt
+      - name: "Loretta Hu"
+        role: Datasquad Infrastructure Developer
+        image: assets/img/team/LorettaHu.jpeg
+        social:
+          - url: https://www.linkedin.com/in/loretta-hu/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/lorhzy09
+            icon: fab fa-github
+      - name: "Hyerin Lee"
+        role: Datasquad Infrastructure Developer
+        image: assets/img/team/HyerinLee.jpeg
+        social:
+          - url: https://www.linkedin.com/in/hyerin-lee/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/hyerynn0521
+            icon: fab fa-github
+      - name: "Lawrence Lee"
+        role: Datasquad Infrastructure Developer
+        image: assets/img/team/LawrenceLee.jpg
+        social:
+          - url: https://www.linkedin.com/in/lawrencetlee/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/lawtlee
+            icon: fab fa-github
 
   hof:
     title: "Hall of Fame"
