@@ -113,9 +113,9 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Bianca Badajos"
         role: Lux Lab Student Programmer
-        image: 
+        image: "assets/img/team/BiancaBadajas.jpg"
         social: 
-          - url: https://www.linkedin.com/in/bianca-badajos-825951265/
+          - url: https://www.linkedin.com/in/biancabadajos/
             icon: fab fa-linkedin-in
           - url: https://github.com/biancadajo
             icon: fab fa-github
