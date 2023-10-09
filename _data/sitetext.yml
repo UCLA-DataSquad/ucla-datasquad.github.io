@@ -247,6 +247,9 @@ en: &DEFAULT_EN
     title: "Our Blog" 
     section: blog
     text: "These are blogs on what we've done"
+  contact:
+    title: "Contact Us"
+    section: contact 
     
 en-US:
   <<: *DEFAULT_EN
