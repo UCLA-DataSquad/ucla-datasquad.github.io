@@ -102,7 +102,7 @@ en: &DEFAULT_EN
           - url: https://calendly.com/zgong24
             icon: fas fa-calendar-alt
       - name: "Lukas Hager"
-        role: Norman Powell Data Science Consultant
+        role: Norman Powell Data Scientist
         image: assets/img/team/LukasHager.jpeg
         social: 
           - url: https://www.linkedin.com/in/lukas-hager-b331801b4/
@@ -113,20 +113,24 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Bianca Badajos"
         role: Lux Lab Student Programmer
-        image: 
+        image: "assets/img/team/BiancaBadajos.jpg"
         social: 
-          - url: https://www.linkedin.com/in/bianca-badajos-825951265/
+          - url: https://www.linkedin.com/in/biancabadajos/
             icon: fab fa-linkedin-in
           - url: https://github.com/biancadajo
             icon: fab fa-github
       #    - url: 
       #      icon: fas fa-calendar-alt
       - name: "Aimee Xu"
-        role: Norman Powell Technical Writer
-        image: ""
+        role: Technical Writer
+        image: "assets/img/team/AimeeXu.png"
         social:
-          - url: ""
+          - url: "https://www.linkedin.com/in/aimxu"
             icon: fab fa-linkedin-in
+          - url: "https://github.com/aimeeGH"
+            icon: fab fa-github
+          - url: "https://calendly.com/aimeexu"
+            icon: fas fa-calendar-alt
       - name: "Loretta Hu"
         role: Norman Powell Data Scientist
         image: assets/img/team/LorettaHu.jpeg
@@ -135,22 +139,38 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/lorhzy09
             icon: fab fa-github
+          - url: https://calendly.com/lorhu09
+            icon: fas fa-calendar-alt
       - name: "Hyerin Lee"
-        role: Datasquad Infrastructure Developer
+        role: Norman Powell Data Scientist
         image: assets/img/team/HyerinLee.jpeg
         social:
           - url: https://www.linkedin.com/in/hyerin-lee/
             icon: fab fa-linkedin-in
           - url: https://github.com/hyerynn0521
             icon: fab fa-github
+          - url: https://calendly.com/hyerin-lee
+            icon: fas fa-calendar-alt
       - name: "Lawrence Lee"
-        role: Datasquad Infrastructure Developer
+        role: Norman Powell Data Scientist
         image: assets/img/team/LawrenceLee.jpg
         social:
           - url: https://www.linkedin.com/in/lawrencetlee/
             icon: fab fa-linkedin-in
           - url: https://github.com/lawtlee
             icon: fab fa-github
+          - url: https://calendly.com/lawrencetlee
+            icon: fas fa-calendar-alt
+      - name: "Aditya Bharath"
+        role: Norman Powell Data Scientist
+        image: assets/img/team/AdityaBharath.jpeg
+        social:
+          - url: https://www.linkedin.com/in/aditya-bharath-ab48761a7/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/adityabharath30
+            icon: fab fa-github
+          - url: https://calendly.com/adityabharath-hmy
+            icon: fas fa-calendar-alt
 
   hof:
     title: "Hall of Fame"
