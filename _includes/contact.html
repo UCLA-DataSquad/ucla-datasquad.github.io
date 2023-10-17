@@ -8,21 +8,20 @@
       <div style="margin-bottom: 2.5em;">
         <div class="container">
           <div class="text-center">
-            <h2 style="color: #fed136;"><b><i>Walk in DataSquad Hours<br/> (no appointment needed)</i></b></h2>
-            <h3 style="color: #1d4de2;"><b>We are located in Room 21536 in YRL!</b></h3>
+            <h3 style="color: #1d4de2;"><b>Walk-in DataSquad Hours in YRL Room 21536 <br/>(no appointment needed)</b></h3>
           </div>
           <div class="row bg-light">
             <div class="col-lg-12">
               <table class="table" style="text-align: center; vertical-align: middle; padding-bottom: 1rem;">
                 <tr style="vertical-align: middle;">
-                  <td><h3>Day</h3></td>
-                  <td><h3>Times</h3></td>
+                  <td style="vertical-align: middle;"><h3 style="margin-bottom: 0;">Day</h3></td>
+                  <td style="vertical-align: middle;"><h3 style="margin-bottom: 0;">Times</h3></td>
                 </tr>
                 {% for entry in site.data.sitetext[site.locale].office-hours.list %}
                 <tr style="vertical-align: middle; padding-bottom: 1rem">
                   <td style="vertical-align: middle;"><h5>{{ entry.day }}</h5></td>
                   <td style="vertical-align: middle;">
-                    <ul style="list-style-type: none; vertical-align: middle; margin-bottom: 0;">
+                    <ul style="list-style-type: none; vertical-align: middle; margin-bottom: 1rem; margin-top: 1rem;">
                       {% for time in entry.times %}
                       <li style="vertical-align: middle;"><b>{{ time }}</b></li>
                       {% endfor %}
