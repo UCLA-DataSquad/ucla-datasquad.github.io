@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   header:
     title: Supporting your data science needs!
     text: DataSquad
-    button: Schedule a Meeting With Us
-    buttonlink: https://calendly.com/d/dwn-43j-ym2
+    button: Meet with us
+    buttonlink: contact
 
   about:
     title: "About Us"
@@ -26,8 +26,8 @@ en: &DEFAULT_EN
     title: "Our Services"
     text: "Our aim is to make your research and work life easier!"
     section: services
-    button: Schedule a Meeting With Us
-    buttonlink: https://calendly.com/d/dwn-43j-ym2
+    button: Meet with us
+    buttonlink: contact
     body: "The primary goal of the UCLA DataSquad consulting service is to guide researchers in learning to apply methods and tools to accomplish their goals, and the DataSquad can provide researchers up to 5 consultations per quarter."
     list:
       - title: "Coding Consultation"
@@ -246,6 +246,27 @@ en: &DEFAULT_EN
     #subject: "Contact Form Submission"
     #submit: "Send Message"
 
+  office-hours:
+    list: 
+      - day: Monday
+        times: 
+          - "12:00 p.m. to 2:30 p.m."
+          - "4:00 p.m. to 5:00 p.m."
+      - day: Tuesday
+        times:
+          - "1:30 p.m. to 3:30 p.m."
+      - day: Wednesday
+        times:
+          - "10:00 a.m. to 12:00 p.m."
+          - "4:00 p.m. to 5:00 p.m."
+      - day: Thursday
+        times:
+          - "10:00 a.m. to 3:00 p.m."
+      - day: Friday
+        times:
+          - "12:00 p.m. to 2:15 p.m."
+
+
   footer:
     legal: "Privacy Policy"
     social:
@@ -263,6 +284,9 @@ en: &DEFAULT_EN
     title: "Our Blog" 
     section: blog
     text: "These are blogs on what we've done"
+  contact:
+    title: "Contact Us"
+    section: contact 
     
 en-US:
   <<: *DEFAULT_EN
