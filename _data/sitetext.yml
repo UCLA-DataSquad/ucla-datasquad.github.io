@@ -83,6 +83,9 @@ en: &DEFAULT_EN
       - name: "Kristian Allen"
         role: "Software Architect"
         image: assets/img/staff/KristianAllen.jpg
+        social:
+          - url: https://www.linkedin.com/in/kristian-allen/
+           icon: fab fa-twitter
       - name: "Doug Daniels"
         role: "Emerging Technologies Librarian"
         image: assets/img/staff/DougDaniels.jpeg
