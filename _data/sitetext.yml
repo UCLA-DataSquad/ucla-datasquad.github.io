@@ -83,6 +83,18 @@ en: &DEFAULT_EN
       - name: "Kristian Allen"
         role: "Software Architect"
         image: assets/img/staff/KristianAllen.jpg
+      - name: "Doug Daniels"
+        role: "Emerging Technologies Librarian"
+        image: assets/img/staff/DougDaniels.jpeg
+        social:
+          - url: https://www.linkedin.com/in/doug-daniels-a390129a/
+            icon: fab fa-linkedin-in
+      - name: "Jina (Jamie) Jamison"
+        role: "Collection Manager"
+        image: assets/img/staff/JamieJamison.jpeg
+        social:
+          - url: https://calendly.com/jamiejamison
+            icon: fas fa-calendar-alt
 
 
   team:
