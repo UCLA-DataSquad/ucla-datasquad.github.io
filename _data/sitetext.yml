@@ -265,21 +265,18 @@ en: &DEFAULT_EN
     list: 
       - day: Monday
         times: 
-          - "12:00 p.m. to 2:30 p.m."
-          - "4:00 p.m. to 5:00 p.m."
+          - "10:00 a.m. to 3:00 p.m."
       - day: Tuesday
         times:
-          - "1:30 p.m. to 3:30 p.m."
+          - "10:00 a.m. to 1:00 p.m."
+          - "3:00 p.m. to 4:00 p.m."
       - day: Wednesday
         times:
           - "10:00 a.m. to 12:00 p.m."
           - "4:00 p.m. to 5:00 p.m."
       - day: Thursday
         times:
-          - "10:00 a.m. to 3:00 p.m."
-      - day: Friday
-        times:
-          - "12:00 p.m. to 2:15 p.m."
+          - "2:00 p.m. to 4:00 p.m."
 
 
   footer:
