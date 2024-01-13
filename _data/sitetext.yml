@@ -263,16 +263,12 @@ en: &DEFAULT_EN
 
   office-hours:
     list: 
-      - day: Monday
-        times: 
-          - "10:00 a.m. to 3:00 p.m."
       - day: Tuesday
         times:
-          - "10:00 a.m. to 1:00 p.m."
-          - "3:00 p.m. to 4:00 p.m."
+          - "10:00 a.m. to 3:00 p.m."
       - day: Wednesday
         times:
-          - "10:00 a.m. to 12:00 p.m."
+          - "10:00 a.m. to 2:00 p.m."
           - "3:00 p.m. to 4:00 p.m."
       - day: Thursday
         times:
