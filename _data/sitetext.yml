@@ -176,16 +176,6 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://calendly.com/lawrencetlee
             icon: fas fa-calendar-alt
-      - name: "Aditya Bharath"
-        role: Norman Powell Data Scientist
-        image: assets/img/team/AdityaBharath.jpeg
-        social:
-          - url: https://www.linkedin.com/in/aditya-bharath-ab48761a7/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/adityabharath30
-            icon: fab fa-github
-          - url: https://calendly.com/adityabharath-hmy
-            icon: fas fa-calendar-alt
 
   hof:
     title: "Hall of Fame"
@@ -265,13 +255,13 @@ en: &DEFAULT_EN
     list: 
       - day: Tuesday
         times:
-          - "10:00 a.m. to 4:00 p.m."
+          - "1:00 p.m. to 4:00 p.m."
       - day: Wednesday
         times:
-          - "10:00 a.m. to 4:00 p.m."
+          - "10:00 a.m. to 3:00 p.m."
       - day: Thursday
         times:
-          - "2:00 p.m. to 4:00 p.m."
+          - "10:00 a.m. to 3:00 p.m."
 
 
   footer:
