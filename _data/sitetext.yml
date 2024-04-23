@@ -19,7 +19,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "Our Story"
-    body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. Our mission is to facilitate data processes for sustainable, replicable, and reproducible research, teaching, and workflows. Members of the DataSquad do not create, interpret, analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. The DataSquad is a part of the [UCLA Library Data Science Center](https://library.ucla.edu/dsc) service and was made possible with a generous gift from Norman Powell. The UCLA DataSquad service is a chapter of the DataSquad International, a service model initiated by Carleton College."
+    body: "The DataSquad is a team of undergraduate students who support data-related projects at UCLA. Our mission is to facilitate data processes for sustainable, replicable, and reproducible research, teaching, and workflows. Members of the DataSquad do not create, interpret, analyze, dictate, or otherwise change the nature of data sets outside of the prescribed task. The DataSquad is a part of the [UCLA Library Data Science Center](https://www.library.ucla.edu/visit/locations/data-science-center/) service and was made possible with a generous gift from Norman Powell. The UCLA DataSquad service is a chapter of the DataSquad International, a service model initiated by Carleton College."
     section: about
 
   services:
