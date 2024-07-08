@@ -85,7 +85,7 @@ en: &DEFAULT_EN
         image: assets/img/staff/KristianAllen.jpg
         social:
           - url: https://www.linkedin.com/in/kristian-allen/
-           icon: fab fa-twitter
+            icon: fab fa-twitter
       - name: "Doug Daniels"
         role: "Emerging Technologies Librarian"
         image: assets/img/staff/DougDaniels.jpeg
@@ -106,25 +106,25 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Emily Gong"
+      - name: "Lawrence Lee"
         role: Project Manager
-        image: assets/img/team/EmilyGong.jpg
-        social: 
-          - url: https://www.linkedin.com/in/emily-gong-11b5a719b/
+        image: assets/img/team/LawrenceLee.jpg
+        social:
+          - url: https://www.linkedin.com/in/lawrencetlee/
             icon: fab fa-linkedin-in
-          - url: https://github.com/emilygong-zhuying
+          - url: https://github.com/lawtlee
             icon: fab fa-github
-          - url: https://calendly.com/zgong24
+          - url: https://calendly.com/lawrencetlee
             icon: fas fa-calendar-alt
-      - name: "Lukas Hager"
+      - name: "Eric Huang"
         role: Norman Powell Data Scientist
-        image: assets/img/team/LukasHager.jpeg
+        image: assets/img/team/EricHuang.jpeg
         social: 
-          - url: https://www.linkedin.com/in/lukas-hager-b331801b4/
+          - url: https://www.linkedin.com/in/zikang-huang/
             icon: fab fa-linkedin-in
-          - url: https://github.com/lukhager
+          - url: https://github.com/cocoa-huang
             icon: fab fa-github
-          - url: https://calendly.com/lukashager
+          - url: https://calendly.com/zkhuang21-g
             icon: fas fa-calendar-alt
       - name: "Bianca Badajos"
         role: Lux Lab Student Programmer
@@ -146,45 +146,15 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: "https://calendly.com/aimeexu"
             icon: fas fa-calendar-alt
-      - name: "Loretta Hu"
+      - name: "Madeline Kim"
         role: Norman Powell Data Scientist
-        image: assets/img/team/LorettaHu.jpeg
+        image: assets/img/team/MadelineKim.jpeg
         social:
-          - url: https://www.linkedin.com/in/loretta-hu/
+          - url: https://www.linkedin.com/in/madeline-kim-14-x2025/
             icon: fab fa-linkedin-in
-          - url: https://github.com/lorhzy09
+          - url: https://github.com/kimrahyun14
             icon: fab fa-github
-          - url: https://calendly.com/lorhu09
-            icon: fas fa-calendar-alt
-      - name: "Hyerin Lee"
-        role: Norman Powell Data Scientist
-        image: assets/img/team/HyerinLee.jpeg
-        social:
-          - url: https://www.linkedin.com/in/hyerin-lee/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/hyerynn0521
-            icon: fab fa-github
-          - url: https://calendly.com/hyerin-lee
-            icon: fas fa-calendar-alt
-      - name: "Lawrence Lee"
-        role: Norman Powell Data Scientist
-        image: assets/img/team/LawrenceLee.jpg
-        social:
-          - url: https://www.linkedin.com/in/lawrencetlee/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/lawtlee
-            icon: fab fa-github
-          - url: https://calendly.com/lawrencetlee
-            icon: fas fa-calendar-alt
-      - name: "Aditya Bharath"
-        role: Norman Powell Data Scientist
-        image: assets/img/team/AdityaBharath.jpeg
-        social:
-          - url: https://www.linkedin.com/in/aditya-bharath-ab48761a7/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/adityabharath30
-            icon: fab fa-github
-          - url: https://calendly.com/adityabharath-hmy
+          - url: https://calendly.com/madelinekim14-g
             icon: fas fa-calendar-alt
 
   hof:
@@ -263,23 +233,15 @@ en: &DEFAULT_EN
 
   office-hours:
     list: 
-      - day: Monday
-        times: 
-          - "12:00 p.m. to 2:30 p.m."
-          - "4:00 p.m. to 5:00 p.m."
       - day: Tuesday
         times:
-          - "1:30 p.m. to 3:30 p.m."
+          - "1:00 p.m. to 4:00 p.m."
       - day: Wednesday
         times:
-          - "10:00 a.m. to 12:00 p.m."
-          - "4:00 p.m. to 5:00 p.m."
+          - "10:00 a.m. to 3:00 p.m."
       - day: Thursday
         times:
           - "10:00 a.m. to 3:00 p.m."
-      - day: Friday
-        times:
-          - "12:00 p.m. to 2:15 p.m."
 
 
   footer:
