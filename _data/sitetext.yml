@@ -126,6 +126,16 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://calendly.com/zkhuang21-g
             icon: fas fa-calendar-alt
+      - name: "Madeline Kim"
+        role: Norman Powell Data Scientist
+        image: assets/img/team/MadelineKim.jpeg
+        social:
+          - url: https://www.linkedin.com/in/madeline-kim-14-x2025/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/kimrahyun14
+            icon: fab fa-github
+          - url: https://calendly.com/madelinekim14-g
+            icon: fas fa-calendar-alt
       - name: "Bianca Badajos"
         role: Lux Lab Student Programmer
         image: "assets/img/team/BiancaBadajos.jpg"
@@ -145,16 +155,6 @@ en: &DEFAULT_EN
           - url: "https://github.com/aimeeGH"
             icon: fab fa-github
           - url: "https://calendly.com/aimeexu"
-            icon: fas fa-calendar-alt
-      - name: "Madeline Kim"
-        role: Norman Powell Data Scientist
-        image: assets/img/team/MadelineKim.jpeg
-        social:
-          - url: https://www.linkedin.com/in/madeline-kim-14-x2025/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/kimrahyun14
-            icon: fab fa-github
-          - url: https://calendly.com/madelinekim14-g
             icon: fas fa-calendar-alt
 
   hof:
