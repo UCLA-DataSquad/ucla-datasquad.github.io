@@ -69,16 +69,8 @@ en: &DEFAULT_EN
             icon: fab fa-twitter
           - url: https://linkedin.com/in/jtimdennis/
             icon: fab fa-linkedin-in
-      - name: "Zhiyuan Yao"
-        role: "Program Co-director"
-        image: assets/img/staff/zhiyuan_500x500.jpg
-        social:
-          - url: https://twitter.com/zhiyuangis
-            icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/zhiyuan-yao-8b7b13101/
-            icon: fab fa-linkedin-in
       - name: "Leigh Phan"
-        role: "Data Scientist"
+        role: "Program Co-director"
         image: assets/img/staff/LeighPhan.jpg
       - name: "Kristian Allen"
         role: "Software Architect"
@@ -152,6 +144,14 @@ en: &DEFAULT_EN
     text: "Powell DataSquad Consultant Alumni"
     section: hof
     people:
+      - name: "Zhiyuan Yao"
+        role: "Program Co-director"
+        image: assets/img/staff/zhiyuan_500x500.jpg
+        social:
+          - url: https://twitter.com/zhiyuangis
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/zhiyuan-yao-8b7b13101/
+            icon: fab fa-linkedin-in
       - name: "Julia Wood"
         role: "Data Science Consultant 2021-22"
         image: assets/img/team/JuliaWood.jpg
