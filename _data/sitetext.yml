@@ -120,7 +120,7 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Madeline Kim"
         role: Norman Powell Data Scientist
-        image: assets/img/team/MadelineKim.jpeg
+        image: assets/img/team/madelinekim_headshot.png
         social:
           - url: https://www.linkedin.com/in/madeline-kim-14-x2025/
             icon: fab fa-linkedin-in
