@@ -1,7 +1,7 @@
 ---
 title: Introducing the 2024-2025 DataSquad!
 layout: blogs
-author: Library Staff
+author: Madeline Kim
 ---
 
 
