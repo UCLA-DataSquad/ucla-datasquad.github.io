@@ -17,9 +17,9 @@ The DataSquad is a group of undergraduate students who work under the DSC, focus
 - Data Visualization
 - Statistical Consulting
 
-If you'd like to schedule a consultation, use our [Calendly](https://calendly.com/data-squad) to meet with us. 
+If you'd like to schedule a consultation, use our [Calendly](https://calendly.com/data-squad) to meet with us on Zoom!
 
-Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment necessary. We're located behind the sliding glass doors past YRL Collaboration Pods on the lobby floor. 
+Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment necessary. We're located behind the sliding glass doors past YRL Collaboration Pods on the lobby floor. You can find our hours [here](https://ucla-datasquad.github.io/#contact).
 
 ### DataSquad Members:
 
