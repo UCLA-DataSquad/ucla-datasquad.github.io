@@ -21,6 +21,8 @@ If you'd like to schedule a consultation, use our [Calendly](https://calendly.co
 
 Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment necessary. We're located behind the sliding glass doors past YRL Collaboration Pods on the lobby floor. You can find our hours [here](https://ucla-datasquad.github.io/#contact).
 
+
+
 ### DataSquad Members:
 
 <p align="center">
@@ -52,6 +54,8 @@ He also hasn’t been able to touch his toes since he was 11.
 
 Lawrence was previously a data consultant at the DSC last year, and we’re thrilled to have him back this year!
 
+
+
 ### Full-time Staff
 
 <p align="center">
@@ -65,13 +69,15 @@ height="70%"
 </p>
 
 
-Tim Dennis is the Director of the Data Science Center, and the Program Co-Director
+Tim Dennis is the Director of the Data Science Center, and the Program Co-Director of the DataSquad.
+
+Leigh Phan is a Data Scientist at the DSC, and the Program Co-Director of the DataSquad.
 
 Doug Daniels is an Emerging Technologies Librarian at the DSC and Lux Lab.
 
 Jamie Jamison is a Collection Manager at the DSC.
 
-Leigh Phan is a Data Scientist at the DSC.
+
 
 ### _Staff Spotlight_
 
