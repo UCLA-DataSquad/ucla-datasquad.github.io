@@ -23,6 +23,17 @@ Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment 
 
 ### DataSquad Members:
 
+<p align="center">
+<img
+src="{{ site.baseurl }}/assets/img/blogs/datasquadphoto.jpg"
+alt="Data Squad photo"
+style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
+width="70%"
+height="70%"
+/>
+</p>
+
+
 **Eric Huang** is a 4th-year Data Theory major and Data Science Engineering minor. He’s one of our data consultants at the DSC, and he mainly works in R and Python. 
 
 Eric claims he can tie his shoelaces (one shoe) in under 5 seconds, and when we timed him at the DSC, he did it in 3.41 seconds! He’s also very into making coffee, and says his favorite coffee in LA is his own. In Westwood, it’s Espresso Profeta. In addition to our main services, Eric can help you with data modeling and optimization, SQL, and database management.
@@ -42,6 +53,17 @@ He also hasn’t been able to touch his toes since he was 11.
 Lawrence was previously a data consultant at the DSC last year, and we’re thrilled to have him back this year!
 
 ### Full-time Staff
+
+<p align="center">
+<img
+src="{{ site.baseurl }}/assets/img/blogs/dscstaff.jpg"
+alt="Data Squad photo"
+style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
+width="70%"
+height="70%"
+/>
+</p>
+
 
 Tim Dennis is the Director of the Data Science Center, and the Program Co-Director
 
