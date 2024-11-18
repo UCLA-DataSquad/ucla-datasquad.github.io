@@ -5,6 +5,8 @@ author: Madeline Kim
 ---
 
 
+
+
 At the UCLA Library Data Science Center (DSC), we’re here to help researchers and faculty understand data and learn coding skills through both education and consultation, with partners both on and off campus.
 
 The DataSquad is a group of undergraduate students who work under the DSC, focusing on consulting for and supporting data-related projects at UCLA. We can help you learn more about your data, whether it’s by making visualizations to make data more accessible, or advising on choosing and implementing the best statistical analyses you can use to reach your goals. 
