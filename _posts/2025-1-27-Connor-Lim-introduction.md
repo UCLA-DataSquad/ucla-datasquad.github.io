@@ -1,11 +1,9 @@
 ---
-title: Introducing Connor Lim
+title: New DataSquad Member: Connor Lim
 layout: blogs
 author: Madeline Kim
 ---
 
-
-**New DataSquad Member: Connor Lim**
 
 <p align="center">
 <img
@@ -17,7 +15,7 @@ height="35%"
 />
 </p>
 
-Here at the DSC, with the new year comes a new DataSquad Member.
+Here at the DSC, with the new year comes a new DataSquad Member!
 
 Connor Lim is a 3rd-year Mechanical Engineering student from Danville, CA who will be joining us this year! He’s just returned from interning at Tesla last quarter, and specializes in 3-D printing, as well as opto-mechanical design!
 
