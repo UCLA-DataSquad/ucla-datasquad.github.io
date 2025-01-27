@@ -120,7 +120,7 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Madeline Kim"
         role: Norman Powell Data Scientist
-        image: assets/img/team/madelinekim_headshot.jpg
+        image: assets/img/team/madelinekim_headshot2024square.jpg
         social:
           - url: https://www.linkedin.com/in/madeline-kim-14-x2025/
             icon: fab fa-linkedin-in
@@ -140,7 +140,7 @@ en: &DEFAULT_EN
             icon: fas fa-calendar-alt
       - name: "Connor Lim"
         role: Norman Powell Data Scientist
-        image: assets/img/team/connorlim.jpg
+        image: assets/img/team/connorlimsquare.jpg
         social:
           - url: https://www.linkedin.com/in/limseung/
             icon: fab fa-linkedin-in
