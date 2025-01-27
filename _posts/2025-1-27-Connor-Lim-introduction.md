@@ -5,6 +5,8 @@ author: Madeline Kim
 ---
 
 
+
+
 Here at the DSC, with the new year comes a new DataSquad Member!
 
 <p align="center">
