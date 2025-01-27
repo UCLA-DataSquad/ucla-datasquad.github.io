@@ -12,8 +12,8 @@ author: Madeline Kim
 src="{{ site.baseurl }}/assets/img/blogs/connorlim.jpg"
 alt="Connor Lim"
 style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
-width="70%"
-height="70%"
+width="35%"
+height="35%"
 />
 </p>
 
