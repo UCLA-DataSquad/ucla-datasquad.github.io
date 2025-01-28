@@ -1,5 +1,5 @@
 ---
-title: New DataSquad Member: Connor Lim
+title: "New DataSquad Member: Connor Lim"
 layout: blogs
 author: Madeline Kim
 ---
