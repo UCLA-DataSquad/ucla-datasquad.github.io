@@ -1,7 +1,7 @@
 ---
 title: "Recent Projects at the DSC"
 author: Madeline Kim
-date: 2025-01-30
+layout: blogs
 ---
 
 
