@@ -218,7 +218,7 @@ en: &DEFAULT_EN
             icon: fab fa-github
       - name: "Emily Gong"
         role: "Project Manager 2023-24"
-        image: assets/img/team/EmilyGong.jpeg
+        image: assets/img/team/EmilyGong.jpg
         social: 
           - url: https://www.linkedin.com/in/emily-gong-11b5a719b/
             icon: fab fa-linkedin-in
