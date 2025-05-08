@@ -216,6 +216,42 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/tdewing19
             icon: fab fa-github
+      - name: "Emily Gong"
+        role: "Project Manager 2023-24"
+        image: assets/img/team/EmilyGong.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/emily-gong-11b5a719b/
+            icon: fab fa-linkedin-in
+      - name: "Hyerin Lee"
+        role: "Data Science Consultant 2023-24"
+        image: assets/img/team/HyerinLee.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/hyerin-lee/
+            icon: fab fa-linkedin-in
+      - name: "Aimee Xu"
+        role: "Data Science Consultant 2023-24"
+        image: assets/img/team/AimeeXu.png
+      - name: "Lukas Hager"
+        role: "Data Science Consultant 2023-24"
+        image: assets/img/team/LukasHager.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/lukas-hager-b331801b4/
+            icon: fab fa-linkedin-in
+      - name: "Aditya Bharath"
+        role: "Data Science Consultant 2023-24"
+        image: assets/img/team/AdityaBharath.jpeg
+        social: 
+          - url: https://www.linkedin.com/in/aditya-bharath-ab48761a7/
+            icon: fab fa-linkedin-in
+      - name: "Bianca Badajos"
+        role: "Lux Lab Student Programmer 2023-24"
+        image: assets/img/team/BiancaBadajos.jpg
+        social: 
+          - url: https://www.linkedin.com/in/biancabadajos/
+            icon: fab fa-linkedin-in
+  
+
+
 
   #contact:
     #title: "Contact Us"
