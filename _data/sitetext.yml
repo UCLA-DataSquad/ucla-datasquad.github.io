@@ -94,11 +94,27 @@ en: &DEFAULT_EN
 
   team:
     title: "Team"
-    text: "Norman Powell Student DataSquad"
+    text: "UCLA DataSquad"
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Lawrence Lee"
+      - name: "Connor Lim"
+        role: Data Scientist
+        image: assets/img/team/connorlimsquare.jpg
+        social:
+          - url: https://www.linkedin.com/in/limseung/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/imconnorlim
+            icon: fab fa-github
+          - url: https://calendly.com/imconnorlim-g
+            icon: fas fa-calendar-alt
+
+  hof:
+    title: "Hall of Fame"
+    text: "UCLA DataSquad Consultant Alumni"
+    section: hof
+    people:
+          - name: "Lawrence Lee"
         role: Project Manager
         image: assets/img/team/LawrenceLee.jpg
         social:
@@ -138,22 +154,6 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://calendly.com/lorhu09
             icon: fas fa-calendar-alt
-      - name: "Connor Lim"
-        role: Data Scientist
-        image: assets/img/team/connorlimsquare.jpg
-        social:
-          - url: https://www.linkedin.com/in/limseung/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/imconnorlim
-            icon: fab fa-github
-          - url: https://calendly.com/imconnorlim-g
-            icon: fas fa-calendar-alt
-
-  hof:
-    title: "Hall of Fame"
-    text: "Powell DataSquad Consultant Alumni"
-    section: hof
-    people:
       - name: "Zhiyuan Yao"
         role: "Program Co-director"
         image: assets/img/staff/zhiyuan_500x500.jpg
