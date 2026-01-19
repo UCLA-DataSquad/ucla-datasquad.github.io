@@ -106,15 +106,55 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/imconnorlim
             icon: fab fa-github
-          - url: https://calendly.com/imconnorlim-g
-            icon: fas fa-calendar-alt
+          - url: mailto:connor.lim@example.com
+            icon: fas fa-envelope
+      - name: "Lian Elsa Linton"
+        role: Project Manager
+        image: assets/img/team/lianelsalinton.png
+        social:
+          - url: https://www.linkedin.com/in/lianelsalinton/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/lianlinton
+            icon: fab fa-github
+          - url: mailto:lianelsalinton@g.ucla.edu
+            icon: fas fa-envelope
+      - name: "Shawn Wang"
+        role: Data Scientist
+        image: assets/img/team/shawnwang.png
+        social:
+          - url: https://www.linkedin.com/in/shouzhi-wang-915403345/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/ShouzhiWang
+            icon: fab fa-github
+          - url: mailto:shawnwang0904@ucla.edu
+            icon: fas fa-envelope
+      - name: "Audrey Garcia"
+        role: Data Scientist
+        image: assets/img/team/audreygarcia.png
+        social:
+          - url: https://www.linkedin.com
+            icon: fab fa-linkedin-in
+          - url: https://github.com/audreyggarcia
+            icon: fab fa-github
+          - url: mailto:audreyggarcia@g.ucla.edu
+            icon: fas fa-envelope
+      - name: "Gianna Kim"
+        role: Data Scientist
+        image: assets/img/team/anonymous-image.png
+        social:
+          - url: https://www.linkedin.com/in/giaari15
+            icon: fab fa-linkedin-in
+          - url: https://github.com/giaari15
+            icon: fab fa-github
+          - url: mailto:giaari15@g.ucla.edu
+            icon: fas fa-envelope
 
   hof:
     title: "Hall of Fame"
     text: "UCLA DataSquad Consultant Alumni"
     section: hof
     people:
-          - name: "Lawrence Lee"
+      - name: "Lawrence Lee"
         role: Project Manager
         image: assets/img/team/LawrenceLee.jpg
         social:

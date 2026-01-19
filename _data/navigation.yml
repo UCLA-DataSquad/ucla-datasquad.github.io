@@ -15,8 +15,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Services"
       section: services
-    - title: "Contact"
-      section: contact 
+    # - title: "Contact"
+    #   section: contact 
     - title: "Projects"
       section: portfolio
     - title: "Blog"
