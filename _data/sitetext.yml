@@ -98,16 +98,6 @@ en: &DEFAULT_EN
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Connor Lim"
-        role: Data Scientist
-        image: assets/img/team/connorlimsquare.jpg
-        social:
-          - url: https://www.linkedin.com/in/limseung/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/imconnorlim
-            icon: fab fa-github
-          - url: mailto:connor.lim@example.com
-            icon: fas fa-envelope
       - name: "Lian Elsa Linton"
         role: Project Manager
         image: assets/img/team/lianelsalinton.png
@@ -117,6 +107,16 @@ en: &DEFAULT_EN
           - url: https://github.com/lianlinton
             icon: fab fa-github
           - url: mailto:lianelsalinton@g.ucla.edu
+            icon: fas fa-envelope
+      - name: "Connor Lim"
+        role: Data Scientist
+        image: assets/img/team/connorlimsquare.jpg
+        social:
+          - url: https://www.linkedin.com/in/limseung/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/imconnorlim
+            icon: fab fa-github
+          - url: mailto:connor.lim@example.com
             icon: fas fa-envelope
       - name: "Shawn Wang"
         role: Data Scientist
@@ -132,7 +132,7 @@ en: &DEFAULT_EN
         role: Data Scientist
         image: assets/img/team/audreygarcia.png
         social:
-          - url: https://www.linkedin.com
+          - url: https://www.linkedin.com/in/audrey-garcia-963b56230/
             icon: fab fa-linkedin-in
           - url: https://github.com/audreyggarcia
             icon: fab fa-github
@@ -140,7 +140,7 @@ en: &DEFAULT_EN
             icon: fas fa-envelope
       - name: "Gianna Kim"
         role: Data Scientist
-        image: assets/img/team/anonymous-image.png
+        image: assets/img/team/giannakim.png
         social:
           - url: https://www.linkedin.com/in/giaari15
             icon: fab fa-linkedin-in
