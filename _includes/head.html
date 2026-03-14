@@ -20,6 +20,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#212529">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -33,6 +35,11 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Accessibility: darken text-muted on bg-light to meet WCAG AA 4.5:1 (#6c757d on #f8f9fa = 4.45, fails) -->
+  <style>
+    .bg-light .text-muted { color: #6b747c !important; }
+  </style>
 
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->

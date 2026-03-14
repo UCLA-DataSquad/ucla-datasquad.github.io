@@ -11,6 +11,14 @@
         <div class="row">
             <div class="col-lg-12">
                 <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Author</th>
+                      </tr>
+                    </thead>
+                    <tbody>
                     {% assign sorted_posts = site.posts | sort: "date" | reverse %}
                     {% for post in sorted_posts %}
                     <tr>
@@ -18,13 +26,14 @@
                             {{post.date | date: "%m-%d-%Y"}}
                         </td>
                         <td>
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title | truncate: 90}}</a>
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title | truncate: 90, "…"}}</a>
                         </td>
                         <td>
                             {{post.author}}
                         </td>
                     </tr>
                     {% endfor %}
+                    </tbody>
                 </table>
             </div>
         </div>

@@ -11,13 +11,13 @@
   {% for project in site.posts %}
       {% if project.showcase and project.showcase == 1 %}
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}" aria-label="View {{ project.title }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+                <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}" aria-hidden="true"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ project.card.caption.thumbnail }}" alt="">
+            <img class="img-fluid" src="{{ project.card.caption.thumbnail }}" alt="{{ project.title }}">
           </a>
           <div class="portfolio-caption">
             <h4>{{ project.title }}</h4>
@@ -29,13 +29,13 @@
 	{% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         {% assign modified_index = forloop.index | plus: 9 %}
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ modified_index }}">
+        <a class="portfolio-link" data-toggle="modal" href="#p{{ modified_index }}" aria-label="View {{ project.caption.title }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}" aria-hidden="true"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="{{ project.caption.title }}">
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>

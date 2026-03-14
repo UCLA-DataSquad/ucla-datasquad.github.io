@@ -10,11 +10,11 @@
 >
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
+      <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close">
         <div class="lr">
           <div class="rl"></div>
         </div>
-      </div>
+      </button>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -29,7 +29,7 @@
               />
               <p>{{ project.card.intro }}
                 <br/><br/>
-                <a href="{{ site.baseurl }}/{{ project.card.url }}"> read more </a>
+                <a href="{{ site.baseurl }}/{{ project.card.url }}">Read more about {{ project.card.title }}</a>
               </p>
               <button
                 class="btn btn-primary"
@@ -61,11 +61,11 @@
 >
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
+      <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close">
         <div class="lr">
           <div class="rl"></div>
         </div>
-      </div>
+      </button>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
