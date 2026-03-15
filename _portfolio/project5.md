@@ -6,7 +6,7 @@ alt: Cover of The Coroner’s Silence by Professor Terence Keel
 caption:
   title: “Shedding Light on Injustice”
   subtitle: “Python, R, Tableau”
-  thumbnail: assets/img/jail.jpg
+  thumbnail: assets/img/keel-coroners-silence.jpg
 ---
 
 By William Foote on Fri, 2022-05-20
@@ -38,7 +38,7 @@ Through their joint efforts, Ethan and Julia’s work gave the researchers at th
 
 The work continued with a second cohort of DataSquad consultants, who cleaned redundant and non-critical data points — reducing the dataset by roughly 30% — and expanded the geographic visualizations to map deaths across thousands of counties and cities nationwide.
 
-The project’s impact has been substantial. Professor Keel became one of six recipients of UCLA’s **2024 Public Impact Research Award**, and the DSC’s contributions will be featured in his forthcoming textbook, *The Coroner’s Silence*.
+The project’s impact has been substantial. Professor Keel became one of six recipients of UCLA’s **2024 Public Impact Research Award**. The DSC’s contributions are featured in his published book, *[The Coroner’s Silence: Death Records and the Hidden Victims of Police Violence](https://www.terencekeel.com/research)*, which Keel has been presenting at talks and conferences.
 
 <img src=”assets/img/keel-coroners-silence.jpg” alt=”Cover of The Coroner’s Silence by Professor Terence Keel” width=”300”>
 
