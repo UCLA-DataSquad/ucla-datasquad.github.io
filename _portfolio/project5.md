@@ -1,13 +1,12 @@
 ---
-title: Civilian Deaths at Hand of Police
-# subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/policedeaththumbnail.png
-alt: Animation of “the hidden’s” fatal encounters with police in the US Photo by Julia Wood.
+title: “Shedding Light on Injustice: Deaths in Custody Data”
+image: assets/img/keel-coroners-silence.jpg
+alt: Cover of The Coroner’s Silence by Professor Terence Keel
 
 caption:
-  title: Civilian Deaths at Hand of Police
-  # subtitle: Graphic Design
-  thumbnail: assets/img/portfolio/policedeaththumbnail.png
+  title: “Shedding Light on Injustice”
+  subtitle: “Python, R, Tableau”
+  thumbnail: assets/img/jail.jpg
 ---
 
 By William Foote on Fri, 2022-05-20
@@ -37,10 +36,18 @@ Through their joint efforts, Ethan and Julia’s work gave the researchers at th
 
 “In class, the end goal is presenting something at the end of the quarter,” Julia said. “Working with a client, you really have to take the right steps to make sure you don’t mess up. We’re responsible for making sure the work we produce is reputable, reproducible, and ready to be published.”
 
-Overall, she believes the Datasquad has delivered on that task.
+The work continued with a second cohort of DataSquad consultants, who cleaned redundant and non-critical data points — reducing the dataset by roughly 30% — and expanded the geographic visualizations to map deaths across thousands of counties and cities nationwide.
+
+The project’s impact has been substantial. Professor Keel became one of six recipients of UCLA’s **2024 Public Impact Research Award**, and the DSC’s contributions will be featured in his forthcoming textbook, *The Coroner’s Silence*.
+
+<img src=”assets/img/keel-coroners-silence.jpg” alt=”Cover of The Coroner’s Silence by Professor Terence Keel” width=”300”>
+
+> “[The UCLA DataSquad] is one of the most impactful resources I’ve engaged with at UCLA.”
+>
+> — Grace Sosa, Biocritical Lab manager
 
 {:.list-inline}
 
-- Date: May 2022
-- Author: William Foote
-- Category: UCLA DataSquad
+- Date: 2021–2024
+- Team: Julia Wood, Ethan Allavarpu, and subsequent cohorts
+- Category: Data Cleaning, Visualization, Social Justice Research
