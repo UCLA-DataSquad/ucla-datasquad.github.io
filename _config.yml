@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : UCLA DataSquad
 email      : support@ucladatasquad.sendboard.com #this is also the email contact forms will go to
-description: "Supporting your data science needs!"
+description: "UCLA DataSquad offers free data science consulting for UCLA researchers and students. Get help with Python, R, data cleaning, visualization, and statistical analysis."
 author     : Tim Dennis
 
 logo:     #optional, defaults to site title
