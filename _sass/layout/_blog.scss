@@ -1,4 +1,39 @@
-// Styling for the blog section
+// Blog listing — editorial article list
+.blog-entry {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $gray-200;
+  &:last-child {
+    border-bottom: none;
+  }
+  .blog-entry-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    a {
+      color: $gray-900;
+      text-decoration: none;
+      &:hover {
+        color: $primary;
+        text-decoration: none;
+      }
+      &:focus-visible {
+        outline: 2px solid $primary;
+        outline-offset: 3px;
+        border-radius: 2px;
+      }
+    }
+  }
+  .blog-entry-meta {
+    font-size: 0.82rem;
+    color: $gray-600;
+    margin-bottom: 0;
+    time { font-variant-numeric: tabular-nums; }
+    .blog-entry-author { margin-left: 0.2em; }
+  }
+}
+
+// Legacy blog grid (unused but kept for reference)
 #blog {
   .blog-item {
     right: 0;
@@ -13,9 +48,9 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        -webkit-transition: all ease 0.5s;
-        -moz-transition: all ease 0.5s;
-        transition: all ease 0.5s;
+        -webkit-transition: opacity 0.5s ease;
+        -moz-transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease;
         opacity: 0;
         background: fade-out($primary, 0.1);
         &:hover {
