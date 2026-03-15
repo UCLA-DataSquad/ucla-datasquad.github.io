@@ -1,41 +1,29 @@
-<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].blog.section | default: "blog" }}">
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].blog.title | default: "Our Blog" }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].blog.text | default: "" }}</h3>
-        </div>
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].blog.section | default: 'blog' }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].blog.title | default: "Our Blog" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].blog.text | default: "" }}</h3>
+      </div>
     </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8 col-md-10">
+        {% assign sorted_posts = site.posts | sort: "date" | reverse %}
+        {% for post in sorted_posts %}
+        <article class="blog-entry">
+          <h3 class="blog-entry-title">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <p class="blog-entry-meta">
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            {% if post.author %}
+            <span class="blog-entry-author">&middot; {{ post.author }}</span>
+            {% endif %}
+          </p>
+        </article>
+        {% endfor %}
+      </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Date</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Author</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    {% assign sorted_posts = site.posts | sort: "date" | reverse %}
-                    {% for post in sorted_posts %}
-                    <tr>
-                        <td>
-                            {{post.date | date: "%m-%d-%Y"}}
-                        </td>
-                        <td>
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title | truncate: 90, "…"}}</a>
-                        </td>
-                        <td>
-                            {{post.author}}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+  </div>
 </section>
