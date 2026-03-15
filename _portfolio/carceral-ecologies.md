@@ -6,7 +6,7 @@ alt: LAPD helicopter in flight over Los Angeles
 caption:
   title: "Carceral Ecologies: LAPD Flight Data"
   subtitle: "R, Data Engineering"
-  thumbnail: assets/img/carceral-ecologies-logo.jpg
+  thumbnail: assets/img/lapd-helio.jpg
 ---
 
 Dr. Nicholas Shapiro and the [Carceral Ecologies Lab](https://carceralecologies.com/) came to the Data Science Center needing to work with large datasets tracking LAPD helicopter surveillance flights. The data was too large to load and analyze efficiently — initial load times ran around 318 minutes.

@@ -6,7 +6,7 @@ alt: L2 voter data loaded into the Redivis platform at UCLA
 caption:
   title: "10TB Voter File: Making Data Research-Ready"
   subtitle: "Redivis, Data Engineering"
-  thumbnail: assets/img/l2-ucla-redivis.png
+  thumbnail: assets/img/portfolio/l2-ucla-redivis-thumb.png
 ---
 
 When UCLA acquired a 10TB national voter file from L2, it arrived as thousands of fragmented, state-level files — too large and inconsistent to use locally.
@@ -21,7 +21,7 @@ The dataset now supports interdisciplinary research across UCLA:
 
 By simplifying access and strengthening reproducibility, the project ensures the data keeps delivering value — for researchers, and for democracy.
 
-<img src="assets/img/l2-ucla-redivis.png" alt="L2 voter data loaded into the Redivis platform at UCLA" class="img-fluid" style="margin-bottom: 1.5rem;">
+<img src="assets/img/l2-ucla-redivis-800.png" alt="L2 voter data loaded into the Redivis platform at UCLA" class="img-fluid" style="margin-bottom: 1.5rem;">
 
 {:.list-inline}
 
