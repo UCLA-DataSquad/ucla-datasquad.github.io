@@ -1,12 +1,12 @@
 ---
 title: “Shedding Light on Injustice: Deaths in Custody Data”
-image: assets/img/keel-coroners-silence.jpg
+image: assets/img/portfolio/keel-coroners-silence.jpg
 alt: “Cover of The Coroner’s Silence: Death Records and the Hidden Victims of Police Violence by Terence Keel”
 
 caption:
   title: “Shedding Light on Injustice”
   subtitle: “R, Python, OpenRefine, Tableau”
-  thumbnail: assets/img/keel-coroners-silence.jpg
+  thumbnail: assets/img/portfolio/keel-coroners-silence.jpg
 ---
 
 Professor Terence Keel and the [Biocritical Studies Lab](https://www.terencekeel.com/research) have been building a comprehensive dataset of deaths in custody across the United States from 2000–2020 — integrating records from Fatal Encounters, The Guardian, Reuters, the LA Times Homicide Report, and the Bureau of Justice Statistics. The UCLA DataSquad supported this work continuously from 2021 through 2025, across four cohorts of consultants.
@@ -33,9 +33,11 @@ Lawrence did the most extensive normalization work: standardizing names with Ope
 
 The results of this multi-year collaboration are now part of Professor Keel’s published book:
 
-<img src=”assets/img/keel-coroners-silence.jpg” alt=”Cover of The Coroner’s Silence by Terence Keel” width=”260” style=”margin-bottom: 1rem;”>
+<img src=”assets/img/portfolio/keel-coroners-silence.jpg” alt=”Cover of The Coroner’s Silence by Terence Keel” width=”260” style=”margin-bottom: 1rem;”>
 
-*[The Coroner’s Silence: Death Records and the Hidden Victims of Police Violence](https://www.terencekeel.com/research)* — which Keel has been presenting at talks and conferences. He was also one of six recipients of UCLA’s **2024 Public Impact Research Award**.
+*The Coroner’s Silence: Death Records and the Hidden Victims of Police Violence* (Beacon Press, 2025) — which Keel has been presenting at talks and conferences. He was also one of six recipients of UCLA’s **2024 Public Impact Research Award**.
+
+[Check it out at the UCLA Library](https://search.library.ucla.edu/permalink/01UCS_LAL/tk6osu/alma9997265754106533) · [Bookshop.org](https://bookshop.org/p/books/the-coroner-s-silence-death-records-and-the-hidden-victims-of-police-violence-terence-keel/176e80a41aa79205?ean=9780807017517)
 
 > “[The UCLA DataSquad] is one of the most impactful resources I’ve engaged with at UCLA.”
 >
