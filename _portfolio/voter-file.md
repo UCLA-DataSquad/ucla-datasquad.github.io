@@ -1,12 +1,12 @@
 ---
 title: "Making Voter Data Usable for Research — at Scale"
-image: assets/img/voting-picture.jpg
-alt: A voter placing a ballot
+image: assets/img/l2-ucla-redivis.png
+alt: L2 voter data loaded into the Redivis platform at UCLA
 
 caption:
   title: "10TB Voter File: Making Data Research-Ready"
   subtitle: "Redivis, Data Engineering"
-  thumbnail: assets/img/voting-picture.jpg
+  thumbnail: assets/img/l2-ucla-redivis.png
 ---
 
 When UCLA acquired a 10TB national voter file from L2, it arrived as thousands of fragmented, state-level files — too large and inconsistent to use locally.
@@ -20,6 +20,8 @@ The dataset now supports interdisciplinary research across UCLA:
 - **UCLA Health**: Health and voting studies (Straus, Thompson, Vavreck, Naeim)
 
 By simplifying access and strengthening reproducibility, the project ensures the data keeps delivering value — for researchers, and for democracy.
+
+<img src="assets/img/l2-ucla-redivis.png" alt="L2 voter data loaded into the Redivis platform at UCLA" class="img-fluid" style="margin-bottom: 1.5rem;">
 
 {:.list-inline}
 
