@@ -1,11 +1,11 @@
 ---
-title: “Shedding Light on Injustice: Deaths in Custody Data”
+title: Shedding Light on Injustice
 image: assets/img/portfolio/keel-coroners-silence.jpg
-alt: “Cover of The Coroner’s Silence: Death Records and the Hidden Victims of Police Violence by Terence Keel”
+alt: Book cover of The Coroner’s Silence by Terence Keel
 
 caption:
-  title: “Shedding Light on Injustice”
-  subtitle: “R, Python, OpenRefine, Tableau”
+  title: Shedding Light on Injustice
+  subtitle: R, Python, OpenRefine, Tableau
   thumbnail: assets/img/portfolio/keel-coroners-silence.jpg
 ---
 
