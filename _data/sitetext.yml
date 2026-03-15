@@ -11,7 +11,7 @@
 en: &DEFAULT_EN
 
   header:
-    title: Supporting your data science needs!
+    title: Free data science consulting for UCLA researchers
     text: DataSquad
     button: Meet with us
     buttonlink: contact
@@ -77,7 +77,7 @@ en: &DEFAULT_EN
         image: assets/img/staff/KristianAllen.jpg
         social:
           - url: https://www.linkedin.com/in/kristian-allen/
-            icon: fab fa-twitter
+            icon: fab fa-linkedin-in
       - name: "Doug Daniels"
         role: "Emerging Technologies Librarian"
         image: assets/img/staff/DougDaniels.jpeg
