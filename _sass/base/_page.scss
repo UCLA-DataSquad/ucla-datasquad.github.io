@@ -35,6 +35,11 @@ a {
   color: $primary !important;
 }
 
+// Bootstrap's .text-muted (#6c757d) is only 3.32:1 on white — fails AA
+.text-muted {
+  color: #595959 !important; // 7.0:1 on white — passes AA and AAA
+}
+
 h1,
 h2,
 h3,
