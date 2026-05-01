@@ -19,7 +19,7 @@ The DataSquad is a group of undergraduate students who work under the DSC, focus
 
 If you'd like to schedule a consultation, use our [Calendly](https://calendly.com/data-squad) to meet with us on Zoom!
 
-Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment necessary. We're located behind the sliding glass doors past YRL Collaboration Pods on the lobby floor. You can find our hours [here](https://ucla-datasquad.github.io/#contact).
+Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment necessary. We're located behind the sliding glass doors past YRL Collaboration Pods on the lobby floor. You can [view our walk-in hours](https://ucla-datasquad.github.io/#contact) on our contact page.
 
 
 
@@ -28,7 +28,7 @@ Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment 
 <p align="center">
 <img
 src="{{ site.baseurl }}/assets/img/blogs/datasquadphoto.jpg"
-alt="Data Squad photo"
+alt="2024-2025 DataSquad team members at the UCLA Library Data Science Center"
 style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
 width="70%"
 height="70%"
@@ -61,7 +61,7 @@ Lawrence was previously a data consultant at the DSC last year, and we’re thri
 <p align="center">
 <img
 src="{{ site.baseurl }}/assets/img/blogs/dscstaff.jpg"
-alt="Data Squad photo"
+alt="UCLA Library Data Science Center full-time staff"
 style="margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
 width="70%"
 height="70%"
