@@ -8,8 +8,7 @@ author: Library Staff
 src="https://static.library.ucla.edu/craftassetsprod/images/_fullscreen/1_Stan_TwitterWordCloud_0.jpeg"
 height="500" width="500"
 alt="Colorful word cloud highlighting some of Sones' findings from Twitter"
-style="margin-Bottom: 2.5em;"
-align="right"
+style="margin-Bottom: 2.5em; float: right;"
 />
 
 Two Bruins – connected through the UCLA Library Data Science Center – collaborated to earn one of them a prestigious 2021 Undergraduate Research Week Dean’s Prize and the other hands-on professional experience in data science assistance.

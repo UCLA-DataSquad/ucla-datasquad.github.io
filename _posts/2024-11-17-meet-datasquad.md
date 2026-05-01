@@ -25,7 +25,7 @@ Or, visit us at Room 11630L in YRL for our walk-in office hours, no appointment 
 
 ### DataSquad Members:
 
-<p align="center">
+<p class="text-center">
 <img
 src="{{ site.baseurl }}/assets/img/blogs/datasquadphoto.jpg"
 alt="2024-2025 DataSquad team members at the UCLA Library Data Science Center"
@@ -58,7 +58,7 @@ Lawrence was previously a data consultant at the DSC last year, and we’re thri
 
 ### Full-time Staff
 
-<p align="center">
+<p class="text-center">
 <img
 src="{{ site.baseurl }}/assets/img/blogs/dscstaff.jpg"
 alt="UCLA Library Data Science Center full-time staff"

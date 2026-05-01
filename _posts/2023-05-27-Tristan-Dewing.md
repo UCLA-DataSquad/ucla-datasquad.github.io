@@ -6,8 +6,7 @@ title: "DataSquad Spotlight: Tristan Dewing"
 <img
 src="{{ site.baseurl }}/assets/img/blogs/triston.png"
 alt="Tristan Dewing"
-style="margin-Bottom: 2.5em; margin-top: 1.5em; maringe-left: 1.5em"
-align="right"
+style="float: right; margin-Bottom: 2.5em; margin-top: 1.5em; margin-left: 1.5em"
 width="25%"
 height="25%"
 />
@@ -36,7 +35,7 @@ faculty, and district leadership. To have a base metric, they also incorporated 
 different graphs, Tristan combined them into an interactive dashboard with multiple drop down filters, as shown below. “It was interesting to see the demographic 
 trends within these higher education institutions as a California native,” Tristan commented. 
 
-<p align="center">
+<p class="text-center">
 <img
 src="{{ site.baseurl }}/assets/img/blogs/CA_college_data.png"
 alt="CA Colleges by Gender and Race"

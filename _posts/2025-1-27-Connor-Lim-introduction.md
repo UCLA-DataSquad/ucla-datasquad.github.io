@@ -9,7 +9,7 @@ author: Madeline Kim
 
 Here at the DSC, with the new year comes a new DataSquad Member!
 
-<p align="center">
+<p class="text-center">
 <img
 src="{{ site.baseurl }}/assets/img/blogs/connorlim.jpg"
 alt="Connor Lim"
