@@ -124,6 +124,11 @@
     &:hover {
       opacity: 0.3;
     }
+    &:focus-visible {
+      outline: 3px solid #005587;
+      outline-offset: 4px;
+      border-radius: 4px;
+    }
     .lr {
       /* Safari and Chrome */
       z-index: 1051;
