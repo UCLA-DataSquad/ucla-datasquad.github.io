@@ -1,87 +1,104 @@
-# Accessibility Conformance
+---
+layout: page
+title: Accessibility Statement
+background: grey
+---
 
-**Standard:** WCAG 2.1 Level AA  
-**Policy:** UC IMT-1300 Information Technology Accessibility  
-**Status:** Conformant  
-**Last audited:** 2026-05-01  
-**Audited by:** UCLA Library Data Science Center
+UCLA DataSquad is committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply relevant accessibility standards to this site.
 
-## Conformance Badge
+### Conformance Status
 
-This site displays the W3C WCAG 2.1 AA conformance badge in the footer. Conformance is self-certified following manual audit and automated testing with pa11y (WCAG2AA standard) across all pages.
+The [UCLA DataSquad website](https://ucla-datasquad.github.io/) conforms to **Web Content Accessibility Guidelines (WCAG) 2.1 Level AA**. Conformance is self-certified following a full audit completed in May 2026, conducted against the [UC IMT-1300 Information Technology Accessibility Policy](https://policy.ucop.edu/doc/7020587/IMT-1300). Automated testing was conducted with [Pa11y](https://pa11y.org/) (WCAG2AA) across all pages.
 
-## Remediation History
+### Living Lab
+
+This site also serves as a pedagogical resource for the DataSquad program — used to train UCLA students in digital accessibility best practices and data science communication. Accessibility improvements made here are documented as learning examples for the team.
+
+### Feedback and Alternate Access
+
+We welcome feedback on the accessibility of this site. If you experience barriers or require an Equally Effective Alternate Access Plan (EEAAP) for any content, please contact us:
+
+- **Email:** [dsc@library.ucla.edu](mailto:dsc@library.ucla.edu)
+- **Location:** UCLA Library Data Science Center, YRL Room 11630L
+- **Response time:** We aim to respond within 2 business days.
+
+If you are unable to access content on this site, we will work with you to provide the information in an alternate format at no cost.
+
+### Assessment Approach
+
+- Manual keyboard navigation and focus testing across all page types
+- Automated scanning with Pa11y at WCAG2AA standard
+- ARIA and semantic structure review
+- Color contrast verification against WCAG 1.4.3 (AA)
+- Review against UC IMT-1300 (ITAP) policy requirements
+
+### Known Limitations
+
+- Third-party booking widget (UCLA Library calendar) opens via external links not under DataSquad control. All links include "(opens in a new tab)" notices.
+- Site uses Bootstrap 4 with a Jekyll theme. `:focus-visible` is used throughout and is supported in all maintained browsers as of 2026.
+
+### Formal Complaints
+
+If you are not satisfied with our response, you may contact the [UCLA Disabilities and Computing Program (DCP)](https://dcp.ucla.edu/) or file a complaint under the UC ITAP policy.
+
+---
+
+### Technical Audit Record
+
+**Standard:** WCAG 2.1 Level AA | **Policy:** UC IMT-1300 | **Last audited:** 2026-05-01
 
 All issues were identified through manual audit and pa11y automated scanning, tracked as GitHub issues #61–71, and resolved in May 2026.
 
-### Keyboard Navigation
+#### Keyboard Navigation
 
-| Issue | Fix | Commit | WCAG |
-|---|---|---|---|
-| No skip navigation link | Added visually-hidden skip link as first focusable element; target is `<main id="main-content">` | `577de25` | 2.4.1 (A) |
-| Portfolio grid links had no visible focus indicator | Added `:focus-visible` outline; focus also triggers hover overlay | `0c4ebde` | 2.1.1 (A), 2.4.7 (AA) |
-| Social buttons suppressed focus with `outline: none` | Removed suppression; added `:focus-visible` ring in Darker Blue | `66c3a6e` | 2.4.7 (AA) |
-| Nav links had no focus indicator | Added white `:focus-visible` outline (16:1 on dark background) | `034af32` | 2.4.7 (AA) |
-| Blog title link focus outline used gold (1.46:1, fails) | Changed to Darker Blue `#005587` | `034af32` | 2.4.7 (AA) |
-| Close modal button had no focus indicator | Added `:focus-visible` outline | `034af32` | 2.4.7 (AA) |
+| Issue | WCAG | Commit |
+|---|---|---|
+| No skip navigation link | 2.4.1 (A) | `577de25` |
+| Portfolio grid: no focus indicator, hover overlay not keyboard-triggered | 2.1.1 (A), 2.4.7 (AA) | `0c4ebde` |
+| Social buttons suppressed focus with `outline: none` | 2.4.7 (AA) | `66c3a6e` |
+| Nav links had no `:focus-visible` rule | 2.4.7 (AA) | `034af32` |
+| Blog title link focus outline was gold (1.46:1, fails) | 2.4.7 (AA) | `034af32` |
+| Close modal button had no focus indicator | 2.4.7 (AA) | `034af32` |
 
-### Color Contrast
+#### Color Contrast
 
-| Issue | Fix | Commit | WCAG |
-|---|---|---|---|
-| UCLA Gold (`#FFD100`) used as link/button text on white (1.46:1) | Replaced with UCLA Darker Blue `#005587` (7.93:1) in global link styles | `1632a1d` | 1.4.3 (AA) |
-| `.btn-primary` gold background with white text (1.46:1) | Changed to `#005587` background; white text is 7.93:1 | `1632a1d` | 1.4.3 (AA) |
-| Mobile navbar toggler: white on gold (1.46:1) | Changed toggler background to `#005587` | `1632a1d` | 1.4.3 (AA) |
-| Social button hover: white icon on gold (1.46:1) | Changed hover background to `#005587` | `66c3a6e` | 1.4.3 (AA) |
-| Bootstrap `.text-muted` (`#6c757d`, 3.32:1) fails on white | Overridden globally to `#595959` (7.0:1) | `01cff98` | 1.4.3 (AA) |
-| Blog post metadata used `$gray-600` directly (2.79:1) | Changed to `#595959` | `01cff98` | 1.4.3 (AA) |
-| Stale inline style in `<head>` using `#6b747c` (3.3:1) overriding correct fix | Removed | `c249e85` | 1.4.3 (AA) |
+| Issue | WCAG | Commit |
+|---|---|---|
+| UCLA Gold as link/button text on white (1.46:1) — replaced with `#005587` (7.93:1) | 1.4.3 (AA) | `1632a1d` |
+| `.btn-primary` gold background + white text (1.46:1) | 1.4.3 (AA) | `1632a1d` |
+| Mobile navbar toggler: white on gold (1.46:1) | 1.4.3 (AA) | `1632a1d` |
+| Social button hover: white on gold (1.46:1) | 1.4.3 (AA) | `66c3a6e` |
+| Bootstrap `.text-muted` (#6c757d, 3.32:1) — overridden to `#595959` (7.0:1) | 1.4.3 (AA) | `01cff98` |
+| Stale inline `<head>` style (#6b747c, 3.3:1) overriding correct fix | 1.4.3 (AA) | `c249e85` |
 
-### Headings and Structure
+#### Headings and Structure
 
-| Issue | Fix | Commit | WCAG |
-|---|---|---|---|
-| Homepage missing `<h1>` | Added visible `<h1>` to masthead (dropped `markdownify` to prevent `<p>` wrapping) | `bbc5bbb` | 2.4.6 (AA), 1.3.1 (A) |
-| Blog post title rendered as `<h2>` | Promoted to `<h1>` in blogs layout | `f6297f5` | 2.4.6 (AA) |
-| Empty `<h3>` tags when data fields are blank | Added Liquid conditionals in team/staff/hof includes | `7905ee8` | 1.3.1 (A), 4.1.1 (A) |
-| Duplicate `id="team"` on Hall of Fame section | Changed to `id="hof"` | `7905ee8` | 4.1.1 (A) |
-| Deprecated `align` attributes on images and paragraphs across 6 posts | Replaced with CSS `float` and Bootstrap `text-center` | `1b9d929` | 1.3.1 (A) |
+| Issue | WCAG | Commit |
+|---|---|---|
+| Homepage missing `<h1>` | 2.4.6 (AA), 1.3.1 (A) | `bbc5bbb` |
+| Blog post title rendered as `<h2>` | 2.4.6 (AA) | `f6297f5` |
+| Empty `<h3>` tags when data fields blank | 1.3.1 (A), 4.1.1 (A) | `7905ee8` |
+| Duplicate `id="team"` on Hall of Fame section | 4.1.1 (A) | `7905ee8` |
+| Deprecated `align` attributes across 6 posts | 1.3.1 (A) | `1b9d929` |
 
-### Images and Media
+#### Images and Links
 
-| Issue | Fix | Commit | WCAG |
-|---|---|---|---|
-| Blog post images with generic `alt="Data Squad photo"` | Replaced with descriptive captions per image | `e2b4cc4` | 1.1.1 (A) |
-| External links using `class="visually-hidden"` (Bootstrap 5 naming, not active on Bootstrap 4) | Changed to `sr-only` | `bbc5bbb` | — |
+| Issue | WCAG | Commit |
+|---|---|---|
+| Generic `alt="Data Squad photo"` on blog images | 1.1.1 (A) | `e2b4cc4` |
+| Generic link text ("here") in blog posts | 2.4.4 (A) | `e2b4cc4` |
 
-### Links
+#### ARIA and Modals
 
-| Issue | Fix | Commit | WCAG |
-|---|---|---|---|
-| Generic link text ("here", "Hours here") in blog posts | Replaced with destination-describing text | `e2b4cc4` | 2.4.4 (A) |
+| Issue | WCAG | Commit |
+|---|---|---|
+| Portfolio modals missing `aria-labelledby` | 4.1.2 (A) | `0c4ebde` |
+| Portfolio modals missing `aria-modal="true"` | 4.1.2 (A) | `bbc5bbb` |
 
-### ARIA and Modals
-
-| Issue | Fix | Commit | WCAG |
-|---|---|---|---|
-| Portfolio modals missing `aria-labelledby` | Added to both modal loops with unique IDs per `forloop.index` | `0c4ebde` | 4.1.2 (A) |
-| Portfolio modals missing `aria-modal="true"` | Added to both modal loops | `bbc5bbb` | 4.1.2 (A) |
-
-## Testing
-
-Automated scans run with [pa11y](https://pa11y.org/) at WCAG2AA standard against a local Jekyll build. Results at time of certification:
+#### Pa11y Results (post-remediation, local build)
 
 | Page | Issues |
 |---|---|
 | Homepage | 0 |
 | Blog index | 0 |
 | All 8 blog posts | 0 each |
-
-## Known Limitations
-
-- Third-party booking widget (UCLA Library calendar) opened via external links — not under DataSquad control; links include `(opens in a new tab)` notices
-- Site uses Bootstrap 4 with Jekyll Agency theme — `:focus-visible` is used throughout; supported in all maintained browsers as of 2026
-
-## Contact
-
-To report an accessibility issue with this site, contact the UCLA Library Data Science Center at [dsc@library.ucla.edu](mailto:dsc@library.ucla.edu) or open an issue at [github.com/UCLA-DataSquad/ucla-datasquad.github.io](https://github.com/UCLA-DataSquad/ucla-datasquad.github.io/issues).
