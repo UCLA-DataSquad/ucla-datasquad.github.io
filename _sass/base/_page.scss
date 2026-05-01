@@ -1,3 +1,19 @@
+// Skip navigation link — visually hidden until focused (WCAG 2.4.1)
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #003B5C;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 10000;
+  text-decoration: none;
+  font-weight: bold;
+  &:focus {
+    top: 0;
+  }
+}
+
 // Global styling for this template
 body {
   overflow-x: hidden;

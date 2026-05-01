@@ -28,7 +28,6 @@ en: &DEFAULT_EN
     section: services
     button: Meet with us
     buttonlink: contact
-    body: "The primary goal of the UCLA DataSquad consulting service is to guide researchers in learning to apply methods and tools to accomplish their goals, and the DataSquad can provide researchers up to 5 consultations per quarter."
     list:
       - title: "Coding Consultation"
         desc: "Do you need help with R, Python, Tableau, or other statistical programming tools? We can help you write efficient and cohesive code and recommend the best coding practices and tools for your project."
@@ -162,18 +161,14 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/lawtlee
             icon: fab fa-github
-          - url: https://calendly.com/lawrencetlee
-            icon: fas fa-calendar-alt
       - name: "Eric Huang"
         role: Data Scientist
         image: assets/img/team/EricHuang.jpeg
-        social: 
+        social:
           - url: https://www.linkedin.com/in/zikang-huang/
             icon: fab fa-linkedin-in
           - url: https://github.com/cocoa-huang
             icon: fab fa-github
-          - url: https://calendly.com/zkhuang21-g
-            icon: fas fa-calendar-alt
       - name: "Madeline Kim"
         role: Data Scientist
         image: assets/img/team/madelinekim_headshot2024square.jpg
@@ -182,8 +177,6 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/kimrahyun14
             icon: fab fa-github
-          - url: https://calendly.com/madelinekim14-g
-            icon: fas fa-calendar-alt
       - name: "Loretta Hu"
         role: Data Scientist
         image: assets/img/team/LorettaHu.jpeg
@@ -192,8 +185,6 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/lorhzy09
             icon: fab fa-github
-          - url: https://calendly.com/lorhu09
-            icon: fas fa-calendar-alt
       - name: "Zhiyuan Yao"
         role: "Program Co-director"
         image: assets/img/staff/zhiyuan_500x500.jpg
@@ -216,7 +207,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://github.com/kmpablo 
             icon: fab fa-github
-      - name: "Wiliam Foote"
+      - name: "William Foote"
         role: "Technical Writer 2021-22"
         image: assets/img/team/WilliamFoote.png
         social:
@@ -340,9 +331,9 @@ en: &DEFAULT_EN
       - url: https://instagram.com
         icon: fab fa-instagram
   blog:
-    title: "Our Blog" 
+    title: "Our Blog"
     section: blog
-    text: "These are blogs on what we've done"
+    text: "Team updates and project recaps"
   contact:
     title: "Contact Us"
     section: contact 

@@ -5,15 +5,16 @@
   style="background-color: #212529"
 >
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
-      {%- if site.logo -%} 
+    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#" aria-label="{{ site.title }} — home">
+      {%- if site.logo -%}
       <img
         height="{{ site.logo.height | default: 52 }}"
         src="{{ site.baseurl }}/{{ site.logo.path }}"
         alt="{{ site.title }}"
-           /> </a>
-      <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#"> {{ site.title }}
-      {%- else -%} {{ site.title }} {%- endif -%}
+      />
+      {%- else -%}
+      {{ site.title }}
+      {%- endif -%}
     </a>
     <button
       class="navbar-toggler navbar-toggler-right"

@@ -16,8 +16,21 @@
 		<p class="text-muted">{{ person.role }}</p>
 		<ul class="list-inline social-buttons">
 		{% for network in person.social %}
+		  {% if network.icon contains "linkedin" %}
+			{% assign network_label = person.name | append: " on LinkedIn" %}
+		  {% elsif network.icon contains "github" %}
+			{% assign network_label = person.name | append: " on GitHub" %}
+		  {% elsif network.icon contains "envelope" %}
+			{% assign network_label = "Email " | append: person.name %}
+		  {% elsif network.icon contains "twitter" %}
+			{% assign network_label = person.name | append: " on Twitter" %}
+		  {% elsif network.icon contains "calendar" %}
+			{% assign network_label = "Schedule a meeting with " | append: person.name %}
+		  {% else %}
+			{% assign network_label = person.name | append: " profile" %}
+		  {% endif %}
 		  <li class="list-inline-item">
-			<a href="{{ network.url }}" aria-label="{{ person.name }} social profile">
+			<a href="{{ network.url }}" aria-label="{{ network_label }}">
 			  <i class="{{ network.icon }}" aria-hidden="true"></i>
 			</a>
 		  </li>
