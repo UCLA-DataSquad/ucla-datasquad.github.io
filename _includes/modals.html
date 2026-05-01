@@ -6,6 +6,7 @@
   id="p{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
+  aria-labelledby="modal-label-p{{ forloop.index }}"
   aria-hidden="true"
 >
   <div class="modal-dialog">
@@ -20,7 +21,7 @@
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">{{ project.card.title }}</h2>
+              <h2 class="text-uppercase" id="modal-label-p{{ forloop.index }}">{{ project.card.title }}</h2>
               <p class="item-intro text-muted">{{ project.card.subtitle }}</p>
               <img
                 class="img-fluid d-block mx-auto"
@@ -57,6 +58,7 @@
   id="p{{ modified_index }}"
   tabindex="-1"
   role="dialog"
+  aria-labelledby="modal-label-p{{ modified_index }}"
   aria-hidden="true"
 >
   <div class="modal-dialog">
@@ -71,7 +73,7 @@
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">{{ project.title }}</h2>
+              <h2 class="text-uppercase" id="modal-label-p{{ modified_index }}">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
               <img
                 class="img-fluid d-block mx-auto"
