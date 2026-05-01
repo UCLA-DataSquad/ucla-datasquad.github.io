@@ -40,5 +40,4 @@ Two Bruins – connected through the UCLA Library Data Science Center – collab
     approach to de-mystifying data science.”</p>
 <p><em>Image info: Gabrielle Sones’s prize-winning findings included this keyword search word cloud; watch the video
         archive of her research presentation at <a href="https://www.youtube.com/watch?v=JpFPGvim2mQ" target="_blank"
-            rel="noreferrer noopener">bit.ly/ucla-sones<span class="visually-hidden">(opens in a new
-                tab)</span></a>.</em>
+            rel="noreferrer noopener">bit.ly/ucla-sones<span class="sr-only"> (opens in a new tab)</span></a>.</em>
