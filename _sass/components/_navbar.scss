@@ -9,7 +9,7 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $primary;
+    background-color: #005587; // Darker Blue — white text is 7.93:1 (gold was 1.46:1, failed)
     @include heading-font;
   }
   .navbar-brand {

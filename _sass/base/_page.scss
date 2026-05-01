@@ -25,9 +25,9 @@ p {
 }
 
 a {
-  color: $primary;
+  color: #005587; // Darker Blue — 7.93:1 on white (gold was 1.46:1, failed)
   &:hover {
-    color: darken($primary, 10%);
+    color: #003B5C; // Darkest Blue
   }
 }
 

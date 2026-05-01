@@ -10,17 +10,18 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: #005587; // Darker Blue — white text is 7.93:1 (gold was 1.46:1, failed)
+  border-color: #005587;
+  color: #fff;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
+    background-color: #003B5C !important; // Darkest Blue
+    border-color: #003B5C !important;
     color: white;
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 85, 135, 0.5) !important;
   }
 }
