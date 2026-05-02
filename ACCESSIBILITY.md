@@ -2,6 +2,7 @@
 layout: page
 title: Accessibility Statement
 background: grey
+permalink: /accessibility/
 ---
 
 UCLA DataSquad is committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply relevant accessibility standards to this site.
