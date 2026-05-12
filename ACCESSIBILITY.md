@@ -19,7 +19,7 @@ This site also serves as a pedagogical resource for the DataSquad program — us
 
 We welcome feedback on the accessibility of this site. If you experience barriers or require an Equally Effective Alternate Access Plan (EEAAP) for any content, please contact us:
 
-- **Email:** [dsc@library.ucla.edu](mailto:dsc@library.ucla.edu)
+- **Email:** [datascience@g.ucla.edu](mailto:datascience@g.ucla.edu)
 - **Location:** UCLA Library Data Science Center, YRL Room 11630L
 - **Response time:** We aim to respond within 2 business days.
 
